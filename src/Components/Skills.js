@@ -1,12 +1,9 @@
 import React from "react";
 import Styles from "../Styles/Content.module.css";
 
-const Skills = ({ image, content }) => {
+export const SkillsIntro = () => {
   return (
-    <section
-      className={Styles.skillsContainer}
-      style={{ height: "646px", backgroundColor: "#2C2E2D" }}
-    >
+    <section id="Skills">
       <div
         style={{
           display: "flex",
@@ -42,16 +39,22 @@ const Skills = ({ image, content }) => {
           fontStyle: "normal",
           fontWeight: 700,
           fontSize: "36px",
+          marginBottom: "40px",
+          marginTop: "15px",
         }}
       >
         What I am Good At
       </h1>
-
-      <main>
-        <img src={image} alt="img" style={{ width: "50px", height: "35px" }} />
-        <div>{content}</div>
-      </main>
     </section>
+  );
+};
+
+const Skills = ({ image, content }) => {
+  return (
+    <main className={Styles.main}>
+      <img src={image} alt="img" style={{ width: "50px", height: "50px" }} />
+      <div>{content}</div>
+    </main>
   );
 };
 

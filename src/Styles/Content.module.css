@@ -1,7 +1,7 @@
 .ContentContainer {
   @apply flex justify-center py-32;
   background-color: #282a29;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .ContentContainer main {
@@ -21,7 +21,6 @@
 }
 .ContentContainer div h1 {
   @apply text-white text-2xl;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .ContentContainer p {
@@ -32,14 +31,15 @@
 .skillsContainer {
   @apply text-white py-32 px-40;
 }
-.skillsContainer main {
-  @apply flex justify-between  rounded-md shadow-lg;
-  background-color: #2c2e2d;
-  font-family: Arial, Helvetica, sans-serif;
+.main {
+  @apply flex justify-around  rounded-md shadow-lg mb-8 items-center p-5;
+  background-color: #282a29;
+  width: 24%;
+  color: #d69e2e;
 }
 
-.skillsContainer main:hover {
-  @apply px-4;
+.main:hover {
+  @apply px-8;
 }
 
 .skillsContainer div {
@@ -48,4 +48,8 @@
 
 .skillsContainer div h1 {
   @apply my-2;
+}
+
+.skillsContainer div h4 {
+  @apply py-3;
 }

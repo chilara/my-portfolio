@@ -1,4 +1,6 @@
 import React from "react";
+import Styles from "../Styles/Content.module.css";
+import { SkillsIntro } from "../Components/Skills";
 import Navbar from "../Components/Navbar";
 import Header from "../Components/Header";
 import About from "../Components/About";
@@ -53,18 +55,23 @@ const Home = () => {
       <Navbar />
       <Header />
       <About />
-      <Skills />
-      {/* <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-between",
-        }}
+      <div
+        className={Styles.skillsContainer}
+        style={{ height: "646px", backgroundColor: "#2C2E2D" }}
       >
-        {skillList.map((items) => (
-          <Skills image={items.image} content={items.content} />
-        ))}
-      </div> */}
+        <SkillsIntro />
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-between",
+          }}
+        >
+          {skillList.map((items) => (
+            <Skills image={items.image} content={items.content} />
+          ))}
+        </div>
+      </div>
     </section>
   );
 };

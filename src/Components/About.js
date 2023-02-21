@@ -3,45 +3,6 @@ import avi from "../Assets/avi.png";
 import styles from "../Styles/Content.module.css";
 import Skills from "../Components/Skills";
 
-// const skillList = [
-//   {
-//     image: logo1,
-//     content: "REACT",
-//   },
-//   {
-//     image: logo2,
-//     content: "TAILWIND",
-//   },
-//   {
-//     image: logo3,
-//     content: "REDUX",
-//   },
-//   {
-//     image: logo4,
-//     content: "HTML5",
-//   },
-//   {
-//     image: logo5,
-//     content: "CSS3",
-//   },
-//   {
-//     image: logo6,
-//     content: "JAVASCRIPT",
-//   },
-//   {
-//     image: logo7,
-//     content: "NODEJS",
-//   },
-//   {
-//     image: logo8,
-//     content: "BOOTSTRAP",
-//   },
-//   {
-//     image: logo9,
-//     content: "MUI",
-//   },
-// ];
-
 const About = () => {
   return (
     <section
@@ -93,7 +54,6 @@ const About = () => {
             style={{
               width: "100%",
               borderRadius: "6px",
-              //   boxShadow: "0px 10px 15px -3px rgba(0, 0, 0, 0.1)",
             }}
           >
             <h1
