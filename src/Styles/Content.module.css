@@ -1,0 +1,51 @@
+.ContentContainer {
+  @apply flex justify-center py-32;
+  background-color: #282a29;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContentContainer main {
+  @apply flex gap-8 w-4/5;
+}
+
+.ContentContainer img {
+  @apply w-1/2;
+}
+
+.ContentContainer main div {
+  @apply my-2;
+}
+
+.ContentContainer div h4 {
+  @apply text-white text-base my-4;
+}
+.ContentContainer div h1 {
+  @apply text-white text-2xl;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.ContentContainer p {
+  @apply text-gray-200  text-justify mt-2;
+  font-weight: 100;
+}
+
+.skillsContainer {
+  @apply text-white py-32 px-40;
+}
+.skillsContainer main {
+  @apply flex justify-between  rounded-md shadow-lg;
+  background-color: #2c2e2d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.skillsContainer main:hover {
+  @apply px-4;
+}
+
+.skillsContainer div {
+  @apply font-bold;
+}
+
+.skillsContainer div h1 {
+  @apply my-2;
+}

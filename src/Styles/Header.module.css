@@ -1,0 +1,44 @@
+.NavbarContainer {
+  @apply fixed top-0 left-0 right-0 flex justify-between p-8;
+  /* background-color: #1e223d; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.NavbarContainer nav {
+  @apply flex justify-between mr-20;
+}
+
+.NavbarContainer nav a {
+  @apply font-bold text-white;
+  cursor: pointer;
+}
+
+.NavbarContainer nav a:hover {
+  @apply font-extrabold;
+  color: #f7b633;
+}
+
+.active {
+  @apply text-yellow-600;
+}
+
+.HeaderContainer {
+  @apply text-center py-48 bg-cover bg-no-repeat;
+  background-image: url("../../public/headerlogo.png");
+}
+.HeaderContainer h6 {
+  @apply font-mono text-white mt-3;
+}
+
+.HeaderContainer h1 {
+  @apply text-white font-extrabold text-6xl mt-8;
+}
+
+.HeaderContainer div {
+  @apply flex justify-center gap-8 mt-12;
+}
+
+.HeaderContainer p {
+  @apply text-yellow-600  transform rotate-90 mt-20;
+  cursor: pointer;
+}
