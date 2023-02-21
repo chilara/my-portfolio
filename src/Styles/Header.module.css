@@ -27,8 +27,8 @@
   @apply font-mono text-white mt-3;
 }
 
-.HeaderContainer h1 {
-  @apply text-white font-extrabold text-6xl mt-8;
+.HeaderContainer main h1 {
+  @apply text-white font-extrabold text-6xl mt-10;
 }
 
 .HeaderContainer div {
@@ -38,4 +38,38 @@
 .HeaderContainer p {
   @apply text-yellow-600  transform rotate-90 mt-20;
   cursor: pointer;
+}
+
+.line {
+  @apply;
+  width: 150px;
+  background-color: #d69e2e;
+  height: 3px;
+  position: relative;
+  animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+}
+
+@keyframes move {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }

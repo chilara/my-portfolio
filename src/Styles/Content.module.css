@@ -1,7 +1,6 @@
 .ContentContainer {
   @apply flex justify-center py-32;
   background-color: #282a29;
-  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .ContentContainer main {

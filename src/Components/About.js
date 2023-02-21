@@ -15,7 +15,7 @@ const About = () => {
           style={{
             backgroundColor: "black",
             width: "100%",
-            height: "550px",
+            height: "530px",
             borderRadius: "5px",
             boxShadow: "0px 10px 15px -3px rgba(0, 0, 0, 0.1)",
           }}
@@ -66,24 +66,23 @@ const About = () => {
               Who Am I
             </h1>
             <p>
-              t is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
+              An Innovative Front-end Developer with 2years experience building
+              and maintaining scalable, responsive and well-documented websites.
             </p>
             <br />
             <p>
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various version
+              A vibrant creative thinker and a problem solver passionate about
+              designs, proven ability in collaborating with cross-functional
+              teams to deliver high-quality products and translate powerful
+              ideas into beautiful, functional design solutions and everyday
+              business values.
             </p>
             <br />
             <p>
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various version
+              I enjoy learning and constantly evolving, keeping abreast of new
+              trends and best practices in software development, navigate
+              through deadlines and other obstacles in order to deliver quality
+              results under time crunches.
             </p>
           </div>
           <button

@@ -29,17 +29,9 @@ const Header = () => {
             display: "flex",
           }}
         >
-          <div
-            style={{
-              width: "150px",
-              backgroundColor: "#d69e2e",
-              height: "3px",
-            }}
-          />
-
+          <div className={Styles.line} />
           <h6
             style={{
-              // fontFamily: "Nunito",
               fontStyle: "normal",
               fontWeight: 600,
               fontSize: "24px",
@@ -48,14 +40,7 @@ const Header = () => {
           >
             A FRONTEND DEVELOPER
           </h6>
-
-          <div
-            style={{
-              width: "150px",
-              backgroundColor: "#d69e2e",
-              height: "3px",
-            }}
-          />
+          <div className={Styles.line} />
         </div>
         <div>
           <button
