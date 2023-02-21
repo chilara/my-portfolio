@@ -52,8 +52,12 @@ const skillList = [
 const Home = () => {
   return (
     <section>
-      <Navbar />
-      <Header />
+      <div className={Styles.headerImage}>
+        <main>
+          <Navbar />
+          <Header />
+        </main>
+      </div>
       <About />
       <div
         className={Styles.skillsContainer}

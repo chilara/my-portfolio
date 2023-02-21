@@ -22,7 +22,6 @@
 
 .HeaderContainer {
   @apply text-center py-48 bg-cover bg-no-repeat;
-  background-image: url("../../public/headerlogo.png");
 }
 .HeaderContainer h6 {
   @apply font-mono text-white mt-3;

@@ -8,6 +8,7 @@ const Header = () => {
         style={{
           display: "flex",
           flexDirection: "column",
+          backgroundColor: "transparent",
         }}
       >
         <h6
