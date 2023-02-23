@@ -8,7 +8,7 @@
 }
 
 .NavbarContainer nav a {
-  @apply font-bold text-white;
+  @apply font-bold text-white text-lg;
   cursor: pointer;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .HeaderContainer main {
-  @apply flex flex-col bg-transparent py-6;
+  @apply flex flex-col bg-transparent;
 }
 
 .HeaderContainer main h6 {
@@ -36,7 +36,7 @@
 }
 
 .HeaderContainer main h1 {
-  @apply text-white font-extrabold text-6xl mt-6;
+  @apply text-white font-extrabold text-6xl mt-10;
   line-height: 72px;
 }
 

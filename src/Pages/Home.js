@@ -1,10 +1,12 @@
 import React from "react";
 import Styles from "../Styles/Content.module.css";
-import { SkillsIntro } from "../Components/Skills";
 import Navbar from "../Components/Navbar";
 import Header from "../Components/Header";
 import About from "../Components/About";
 import Skills from "../Components/Skills";
+import { SkillsIntro } from "../Components/Skills";
+import Services from "../Components/Services";
+import { ServicesIntro } from "../Components/Services";
 import logo1 from "../Assets/logo1.png";
 import logo2 from "../Assets/logo2.png";
 import logo3 from "../Assets/logo3.png";
@@ -49,6 +51,39 @@ const skillList = [
   },
 ];
 
+const ServiceList = [
+  {
+    image: "",
+    heading: "FRONTEND DEVELOPMENT",
+    content: "",
+  },
+  {
+    image: "",
+    heading: "RESPONSIVE DESIGNS",
+    content: "",
+  },
+  {
+    image: "",
+    heading: "CLEAN CODE",
+    content: "",
+  },
+  {
+    image: "",
+    heading: "WEB DESIGN",
+    content: "",
+  },
+  {
+    image: "",
+    heading: "RESTFUL SERVICES AND APIs",
+    content: "",
+  },
+  {
+    image: "",
+    heading: "WEB DEVELOPMENT",
+    content: "",
+  },
+];
+
 const Home = () => {
   return (
     <section>
@@ -71,6 +106,25 @@ const Home = () => {
         >
           {skillList.map((items) => (
             <Skills image={items.image} content={items.content} />
+          ))}
+        </div>
+      </div>
+      <div className={Styles.ServicesContainer}>
+        <ServicesIntro />
+        <div
+          className={Styles.ServicesFlex}
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-between",
+          }}
+        >
+          {ServiceList.map((items) => (
+            <Services
+              image={items.image}
+              heading={items.heading}
+              content={items.content}
+            />
           ))}
         </div>
       </div>

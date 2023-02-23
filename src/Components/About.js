@@ -25,10 +25,11 @@ const About = () => {
           </p>
           <br />
           <p>
-            A vibrant creative thinker and a problem solver passionate about
-            designs, proven ability in collaborating with cross-functional teams
-            to deliver high-quality products and translate powerful ideas into
-            beautiful, functional design solutions and everyday business values.
+            I am a vibrant creative thinker and a problem solver passionate
+            about designs, proven ability in collaborating with cross-functional
+            teams to deliver high-quality products and translate powerful ideas
+            into beautiful, functional design solutions and everyday business
+            values.
           </p>
           <br />
           <p>
