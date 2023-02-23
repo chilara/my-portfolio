@@ -8,7 +8,7 @@ const Navbar = () => {
       <FcSportsMode
         style={{ width: "25px", height: "25px", marginLeft: "5rem" }}
       />
-      <nav style={{ width: "600px" }}>
+      <nav>
         <a href="" className={Styles.active}>
           Home
         </a>

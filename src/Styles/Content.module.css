@@ -7,28 +7,60 @@
   @apply flex gap-8 w-4/5;
 }
 
+.ContentContainer main span {
+  @apply w-full bg-black rounded-md h-128;
+  box-shadow: "0px 10px 15px -3px rgba(0, 0, 0, 0.1)";
+}
+
 .ContentContainer img {
   @apply w-1/2;
 }
 
-.ContentContainer main div {
-  @apply my-2;
+.ParentAbout {
+  @apply my-3;
 }
 
-.ContentContainer div h4 {
+.ChildAbout {
+  @apply flex items-center gap-3 w-32 text-center rounded-md;
+  box-shadow: "0px 10px 15px -3px rgba(0, 0, 0, 0.1)";
+}
+
+.ChildAbout div {
+  @apply w-8 h-1;
+  background-color: #d69e2e;
+}
+
+.ChildAbout h5 {
   @apply text-white text-base my-4;
 }
-.ContentContainer div h1 {
-  @apply text-white text-2xl;
+
+.ParentAbout h1 {
+  @apply font-bold text-4xl text-white;
+}
+
+.ParentAbout button {
+  @apply mt-10 font-semibold text-lg text-center rounded-lg;
+  background-color: #f7b633;
+  width: 123px;
+  height: 43px;
+  color: #25282b;
+  padding: 8px 24px;
+  line-height: 150%;
+}
+
+.ParentAbout button:focus {
+  outline: none;
 }
 
 .ContentContainer p {
-  @apply text-gray-200  text-justify mt-2;
+  @apply text-gray-200 text-justify mt-2;
   font-weight: 100;
 }
 
 .skillsContainer {
   @apply text-white py-32 px-40;
+  height: 646;
+  background-color: #2c2e2d;
 }
 .main {
   @apply flex justify-around  rounded-md shadow-lg mb-8 items-center p-5;
@@ -45,14 +77,6 @@
   @apply font-bold;
 }
 
-.skillsContainer div h1 {
-  @apply my-2;
-}
-
-.skillsContainer div h4 {
-  @apply py-3;
-}
-
 .headerImage {
   @apply bg-fixed bg-no-repeat bg-cover;
   background-image: url("../../public/headerlogo.png");
@@ -61,4 +85,18 @@
 .headerImage main {
   @apply;
   background-color: rgba(1, 1, 1, 0.8);
+}
+
+.ParentSkills {
+  @apply flex items-center gap-3 w-32 text-center rounded-md;
+  box-shadow: "0px 10px 15px -3px rgba(0, 0, 0, 0.1)";
+}
+
+.ParentSkills div {
+  @apply w-8 h-1;
+  background-color: #d69e2e;
+}
+
+.SkillIntro h1 {
+  @apply font-bold text-4xl mb-10 mt-4;
 }

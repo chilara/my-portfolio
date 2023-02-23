@@ -11,7 +11,7 @@ import logo3 from "../Assets/logo3.png";
 import logo4 from "../Assets/logo4.png";
 import logo5 from "../Assets/logo5.png";
 import logo6 from "../Assets/logo6.png";
-import logo8 from "../Assets/logo8.png";
+import logo10 from "../Assets/logo10.png";
 import logo9 from "../Assets/logo9.png";
 
 const skillList = [
@@ -40,8 +40,8 @@ const skillList = [
     content: "JAVASCRIPT",
   },
   {
-    image: logo8,
-    content: "BOOTSTRAP",
+    image: logo10,
+    content: "GIT",
   },
   {
     image: logo9,
@@ -59,12 +59,10 @@ const Home = () => {
         </main>
       </div>
       <About />
-      <div
-        className={Styles.skillsContainer}
-        style={{ height: "646px", backgroundColor: "#2C2E2D" }}
-      >
+      <div className={Styles.skillsContainer}>
         <SkillsIntro />
         <div
+          className={Styles.SkillsFlex}
           style={{
             display: "flex",
             flexWrap: "wrap",
