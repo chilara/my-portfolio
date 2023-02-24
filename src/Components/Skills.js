@@ -16,7 +16,7 @@ export const SkillsIntro = () => {
 const Skills = ({ image, content }) => {
   return (
     <main className={Styles.main}>
-      <img src={image} alt="img" style={{ width: "50px", height: "50px" }} />
+      <img src={image} alt="img" />
       <div>{content}</div>
     </main>
   );

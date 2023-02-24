@@ -15,6 +15,12 @@ import logo5 from "../Assets/logo5.png";
 import logo6 from "../Assets/logo6.png";
 import logo10 from "../Assets/logo10.png";
 import logo9 from "../Assets/logo9.png";
+import cleanCode from "../Assets/cleanCode.png";
+import responsive from "../Assets/responsive.png";
+import frontend from "../Assets/frontend.png";
+import webDesign from "../Assets/webDesign.png";
+import restApi from "../Assets/restApi.png";
+import webDev from "../Assets/webDev.png";
 
 const skillList = [
   {
@@ -53,34 +59,40 @@ const skillList = [
 
 const ServiceList = [
   {
-    image: "",
+    image: frontend,
     heading: "FRONTEND DEVELOPMENT",
-    content: "",
+    content:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    image: "",
+    image: responsive,
     heading: "RESPONSIVE DESIGNS",
-    content: "",
+    content:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    image: "",
+    image: cleanCode,
     heading: "CLEAN CODE",
-    content: "",
+    content:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    image: "",
+    image: webDesign,
     heading: "WEB DESIGN",
-    content: "",
+    content:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    image: "",
+    image: restApi,
     heading: "RESTFUL SERVICES AND APIs",
-    content: "",
+    content:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
   {
-    image: "",
+    image: webDev,
     heading: "WEB DEVELOPMENT",
-    content: "",
+    content:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
   },
 ];
 

@@ -16,9 +16,11 @@ export const ServicesIntro = () => {
 const Services = ({ image, heading, content }) => {
   return (
     <main className={Styles.ServicesMain}>
-      <img src={image} alt="img" style={{ width: "420px", height: "284px" }} />
+      <div>
+        <img src={image} alt="img" />
+      </div>
       <h3>{heading}</h3>
-      <div>{content}</div>
+      <h6>{content}</h6>
     </main>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 // import avi from "../Assets/avi.png";
 import styles from "../Styles/Content.module.css";
-import Skills from "../Components/Skills";
 
 const About = () => {
   return (
