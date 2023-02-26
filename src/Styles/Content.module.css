@@ -59,14 +59,13 @@
 
 .skillsContainer {
   @apply text-white py-24 px-40;
-  height: 646;
   background-color: #2c2e2d;
 }
+
 .main {
   @apply flex justify-around  rounded-md shadow-lg mb-8 items-center p-5;
   background-color: #282a29;
   width: 24%;
-  color: #d69e2e;
 }
 
 .main img {
@@ -77,6 +76,7 @@
 
 .main:hover {
   @apply px-8;
+  color: #d69e2e;
 }
 
 .skillsContainer div {
@@ -113,7 +113,7 @@
 
 .ServicesContainer {
   @apply text-white py-32 px-40;
-  height: 950px;
+  height: 1000px;
   background-color: #282a29;
 }
 
@@ -165,4 +165,12 @@ main.ServicesMain:hover {
   width: 65px;
   height: 60px;
   border-radius: 50%;
+}
+
+.DialogT {
+  @apply flex items-center justify-between px-5;
+}
+
+.DialogContainer button:focus {
+  outline: none;
 }

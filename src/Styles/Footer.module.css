@@ -1,0 +1,21 @@
+.ContactContainer {
+  @apply flex flex-col items-center py-32;
+  background-color: #2c2e2d;
+  height: 897px;
+}
+
+.ParentContact {
+  @apply flex justify-center gap-8 items-center;
+}
+
+.ParentContact h3 {
+  @apply font-bold text-4xl;
+  color: white;
+}
+
+.line {
+  @apply;
+  width: 150px;
+  background-color: #d69e2e;
+  height: 3px;
+}

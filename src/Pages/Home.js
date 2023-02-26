@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Styles from "../Styles/Content.module.css";
 import Navbar from "../Components/Navbar";
 import Header from "../Components/Header";
@@ -7,6 +7,7 @@ import Skills from "../Components/Skills";
 import { SkillsIntro } from "../Components/Skills";
 import Services from "../Components/Services";
 import { ServicesIntro } from "../Components/Services";
+import Contact from "../Components/Contact";
 import logo1 from "../Assets/logo1.png";
 import logo2 from "../Assets/logo2.png";
 import logo3 from "../Assets/logo3.png";
@@ -21,6 +22,10 @@ import frontend from "../Assets/frontend.png";
 import webDesign from "../Assets/webDesign.png";
 import restApi from "../Assets/restApi.png";
 import webDev from "../Assets/webDev.png";
+import DialogTitle from "@mui/material/DialogTitle";
+import Dialog from "@mui/material/Dialog";
+import { MdDisabledByDefault } from "react-icons/md";
+import { getBase64 } from "../Utilis";
 
 const skillList = [
   {
@@ -97,6 +102,30 @@ const ServiceList = [
 ];
 
 const Home = () => {
+  const [open, setOpen] = useState(false);
+
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const [pdfBase64, setpdfBase64] = useState("");
+
+  useEffect(() => {
+    const fetch = async () => {
+      try {
+        let file = require("../Assets/Resume.pdf");
+        const base64String = await getBase64(file);
+        console.log(base64String);
+        // setState here
+      } catch (err) {}
+    };
+    fetch();
+  }, []);
+
   return (
     <section>
       <div className={Styles.headerImage}>
@@ -105,7 +134,7 @@ const Home = () => {
           <Header />
         </main>
       </div>
-      <About />
+      <About handleOpen={handleOpen} />
       <div className={Styles.skillsContainer}>
         <SkillsIntro />
         <div
@@ -140,6 +169,22 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Contact />
+      <Dialog
+        onClose={handleClose}
+        open={open}
+        className={Styles.DialogContainer}
+      >
+        <div className={Styles.DialogT}>
+          <DialogTitle>My CV</DialogTitle>
+          <button
+            onClick={handleClose}
+            style={{ width: "20px", height: "20px" }}
+          >
+            <MdDisabledByDefault style={{ width: "20px", height: "20px" }} />
+          </button>
+        </div>
+      </Dialog>
     </section>
   );
 };

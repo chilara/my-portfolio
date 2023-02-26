@@ -2,7 +2,7 @@ import React from "react";
 // import avi from "../Assets/avi.png";
 import styles from "../Styles/Content.module.css";
 
-const About = () => {
+const About = ({ handleOpen }) => {
   return (
     <section
       className={styles.ContentContainer}
@@ -37,7 +37,7 @@ const About = () => {
             deadlines and other obstacles in order to deliver quality results
             under time crunches.
           </p>
-          <button>View CV</button>
+          <button onClick={handleOpen}>View CV</button>
         </div>
       </main>
     </section>

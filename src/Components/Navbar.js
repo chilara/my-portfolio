@@ -16,7 +16,7 @@ const Navbar = () => {
         <a href="#Skills">Skills</a>
         <a href="#Services">Services</a>
         <a href="#">Projects</a>
-        <a href="#">Contact</a>
+        <a href="#Contact">Contact</a>
       </nav>
     </section>
   );

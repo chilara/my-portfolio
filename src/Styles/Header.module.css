@@ -3,12 +3,14 @@
 }
 
 .NavbarContainer nav {
-  @apply flex justify-between mr-20;
+  @apply flex justify-evenly mr-20 py-2;
   width: 600px;
+  background-color: #282a29;
+  border-radius: 10px;
 }
 
 .NavbarContainer nav a {
-  @apply font-bold text-white text-lg;
+  @apply font-normal text-white text-lg;
   cursor: pointer;
 }
 
