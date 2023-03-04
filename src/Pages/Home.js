@@ -7,7 +7,9 @@ import Skills from "../Components/Skills";
 import { SkillsIntro } from "../Components/Skills";
 import Services from "../Components/Services";
 import { ServicesIntro } from "../Components/Services";
+import Projects from "../Components/Projects";
 import Contact from "../Components/Contact";
+import Footer from "../Components/Footer";
 import logo1 from "../Assets/logo1.png";
 import logo2 from "../Assets/logo2.png";
 import logo3 from "../Assets/logo3.png";
@@ -25,7 +27,7 @@ import webDev from "../Assets/webDev.png";
 import DialogTitle from "@mui/material/DialogTitle";
 import Dialog from "@mui/material/Dialog";
 import { MdDisabledByDefault } from "react-icons/md";
-import { getBase64 } from "../Utilis";
+// import { getBase64 } from "../Utilis";
 
 const skillList = [
   {
@@ -112,18 +114,11 @@ const Home = () => {
     setOpen(false);
   };
 
-  const [pdfBase64, setpdfBase64] = useState("");
+  const [pdfFile, setPdfFile] = useState("");
 
   useEffect(() => {
-    const fetch = async () => {
-      try {
-        let file = require("../Assets/Resume.pdf");
-        const base64String = await getBase64(file);
-        console.log(base64String);
-        // setState here
-      } catch (err) {}
-    };
-    fetch();
+    const file = require("../Assets/Resume.pdf");
+    setPdfFile(file);
   }, []);
 
   return (
@@ -169,7 +164,9 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Projects />
       <Contact />
+      <Footer />
       <Dialog
         onClose={handleClose}
         open={open}
@@ -183,6 +180,16 @@ const Home = () => {
           >
             <MdDisabledByDefault style={{ width: "20px", height: "20px" }} />
           </button>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "60%",
+          }}
+        >
+          <object data={pdfFile}></object>
         </div>
       </Dialog>
     </section>

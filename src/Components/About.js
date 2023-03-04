@@ -19,8 +19,9 @@ const About = ({ handleOpen }) => {
           </div>
           <h1>Who Am I</h1>
           <p>
-            An Innovative Front-end Developer with 2years experience building
-            and maintaining scalable, responsive and well-documented websites.
+            An Innovative Front-end Developer with two and half years experience
+            building and maintaining scalable, responsive and well-documented
+            websites & webApps.
           </p>
           <br />
           <p>

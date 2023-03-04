@@ -167,6 +167,51 @@ main.ServicesMain:hover {
   border-radius: 50%;
 }
 
+.ProjectIntro {
+  @apply text-white py-32 px-40;
+  height: 2250px;
+  background-color: #2c2e2d;
+}
+
+.ParentProject {
+  @apply flex items-center gap-3 w-40 text-center rounded-md;
+  box-shadow: "0px 10px 15px -3px rgba(0, 0, 0, 0.1)";
+}
+
+.ParentProject div {
+  @apply w-8 h-1;
+  background-color: #d69e2e;
+}
+
+.ProjectIntro h1 {
+  @apply font-bold text-4xl mb-10 mt-4;
+}
+
+.firstContainer {
+  @apply flex justify-center;
+}
+
+.boxOne {
+  @apply rounded-tl-lg rounded-bl-lg;
+  background-color: #282a29;
+  height: 426px;
+  width: 496px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.boxTwo {
+  @apply rounded-tr-lg rounded-br-lg;
+  background-color: #d69e2e;
+  height: 426px;
+  width: 496px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.DialogContainer {
+  @apply;
+  width: 100vh;
+}
+
 .DialogT {
   @apply flex items-center justify-between px-5;
 }
