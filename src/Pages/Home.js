@@ -7,7 +7,7 @@ import Skills from "../Components/Skills";
 import { SkillsIntro } from "../Components/Skills";
 import Services from "../Components/Services";
 import { ServicesIntro } from "../Components/Services";
-import Projects from "../Components/Projects";
+import Projects, { ProjectIntro } from "../Components/Projects";
 import Contact from "../Components/Contact";
 import Footer from "../Components/Footer";
 import logo1 from "../Assets/logo1.png";
@@ -18,6 +18,10 @@ import logo5 from "../Assets/logo5.png";
 import logo6 from "../Assets/logo6.png";
 import logo10 from "../Assets/logo10.png";
 import logo9 from "../Assets/logo9.png";
+import logo7 from "../Assets/logo7.png";
+import logo11 from "../Assets/logo11.png";
+import logo12 from "../Assets/logo12.png";
+import logo13 from "../Assets/logo13.png";
 import cleanCode from "../Assets/cleanCode.png";
 import responsive from "../Assets/responsive.png";
 import frontend from "../Assets/frontend.png";
@@ -27,7 +31,6 @@ import webDev from "../Assets/webDev.png";
 import DialogTitle from "@mui/material/DialogTitle";
 import Dialog from "@mui/material/Dialog";
 import { MdDisabledByDefault } from "react-icons/md";
-// import { getBase64 } from "../Utilis";
 
 const skillList = [
   {
@@ -41,6 +44,10 @@ const skillList = [
   {
     image: logo3,
     content: "REDUX",
+  },
+  {
+    image: logo9,
+    content: "MUI",
   },
   {
     image: logo4,
@@ -59,8 +66,20 @@ const skillList = [
     content: "GIT",
   },
   {
-    image: logo9,
-    content: "MUI",
+    image: logo7,
+    content: "NODE.JS",
+  },
+  {
+    image: logo11,
+    content: "EXPRESS.JS",
+  },
+  {
+    image: logo12,
+    content: "MONGO DB",
+  },
+  {
+    image: logo13,
+    content: "FIGMA",
   },
 ];
 
@@ -100,6 +119,44 @@ const ServiceList = [
     heading: "WEB DEVELOPMENT",
     content:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+  },
+];
+
+const projectLists = [
+  {
+    title: "Country API",
+    description: "hcbiucvbfvioenviroevnjrovhrviuerbhreiuvjhrviruvhb",
+    githubRepo: "herifierfhjfje",
+    liveSite: "uhiorghrogj",
+    image: "rnrkn",
+  },
+  {
+    title: "Country API",
+    description: "hcbiucvbfvioenviroevnjrovhrviuerbhreiuvjhrviruvhb",
+    githubRepo: "herifierfhjfje",
+    liveSite: "uhiorghrogj",
+    image: "rnrkn",
+  },
+  {
+    title: "Country API",
+    description: "hcbiucvbfvioenviroevnjrovhrviuerbhreiuvjhrviruvhb",
+    githubRepo: "herifierfhjfje",
+    liveSite: "uhiorghrogj",
+    image: "rnrkn",
+  },
+  {
+    title: "Country API",
+    description: "hcbiucvbfvioenviroevnjrovhrviuerbhreiuvjhrviruvhb",
+    githubRepo: "herifierfhjfje",
+    liveSite: "uhiorghrogj",
+    image: "rnrkn",
+  },
+  {
+    title: "Country API",
+    description: "hcbiucvbfvioenviroevnjrovhrviuerbhreiuvjhrviruvhb",
+    githubRepo: "herifierfhjfje",
+    liveSite: "uhiorghrogj",
+    image: "rnrkn",
   },
 ];
 
@@ -164,7 +221,19 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <Projects />
+      <div className={Styles.ProjectIntro}>
+        <ProjectIntro />
+        {projectLists.map((items, index) => (
+          <Projects
+            title={items.title}
+            description={items.description}
+            githubRepo={items.githubRepo}
+            liveSite={items.liveSite}
+            image={items.image}
+            even={index % 2 == 0 ? true : false}
+          />
+        ))}
+      </div>
       <Contact />
       <Footer />
       <Dialog
@@ -189,7 +258,7 @@ const Home = () => {
             width: "60%",
           }}
         >
-          <object data={pdfFile}></object>
+          {/* <object data={pdfFile}></object> */}
         </div>
       </Dialog>
     </section>

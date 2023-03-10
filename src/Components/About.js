@@ -19,23 +19,23 @@ const About = ({ handleOpen }) => {
           </div>
           <h1>Who Am I</h1>
           <p>
-            An Innovative Front-end Developer with two and half years experience
-            building and maintaining scalable, responsive and well-documented
-            websites & webApps.
+            I am an innovative Front-end Developer with two years of experience
+            building and maintaining scalable, responsive, and well-documented
+            websites and web applications.
           </p>
           <br />
           <p>
             I am a vibrant creative thinker and a problem solver passionate
-            about designs, proven ability in collaborating with cross-functional
-            teams to deliver high-quality products and translate powerful ideas
-            into beautiful, functional design solutions and everyday business
-            values.
+            about designs with a proven ability to collaborate with
+            cross-functional teams to deliver high-quality products and
+            translate powerful ideas into beautiful, functional design solutions
+            and everyday business values.
           </p>
           <br />
           <p>
             I enjoy learning and constantly evolving, keeping abreast of new
-            trends and best practices in software development, navigate through
-            deadlines and other obstacles in order to deliver quality results
+            trends and best practices in software development. Navigating
+            through deadlines and other obstacles to deliver quality results
             under time crunches.
           </p>
           <button onClick={handleOpen}>View CV</button>

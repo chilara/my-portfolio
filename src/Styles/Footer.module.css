@@ -96,7 +96,23 @@ button:focus {
 }
 
 .footer {
-  @apply;
+  @apply flex justify-center items-center;
   background-color: #2c2e2d;
   height: 150px;
+}
+
+.footer main {
+  @apply flex flex-col justify-center items-center;
+}
+
+.footer main p {
+  @apply mt-6;
+  color: #f7b633;
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.footer main div {
+  @apply flex gap-5;
 }
