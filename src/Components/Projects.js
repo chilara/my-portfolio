@@ -45,11 +45,7 @@ const Projects = ({
     >
       {even ? (
         <>
-          <div
-            className={Styles.boxOne}
-            // data-aos="zoom-in-right"
-            // data-aos-duration="3000"
-          >
+          <div className={Styles.boxOne}>
             <h1>{title}</h1>
             <p>{description}</p>
             <div style={{ display: "flex", gap: "30px" }}>
@@ -61,28 +57,12 @@ const Projects = ({
               </div>
             </div>
           </div>
-          <div
-            className={Styles.boxTwo}
-            // data-aos="zoom-in-right"
-            // data-aos-duration="3000"
-          >
-            {image}
-          </div>
+          <div className={Styles.boxTwo}>{image}</div>
         </>
       ) : (
         <>
-          <div
-            className={Styles.boxTwo}
-            // data-aos="zoom-in-left"
-            // data-aos-duration="3000"
-          >
-            {image}
-          </div>
-          <div
-            className={Styles.boxOne}
-            // data-aos="zoom-in-left"
-            // data-aos-duration="3000"
-          >
+          <div className={Styles.boxTwo}>{image}</div>
+          <div className={Styles.boxOne}>
             <h1>{title}</h1>
             <p>{description}</p>
             <div style={{ display: "flex", gap: "30px" }}>

@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-const footer = () => {
+const Footer = () => {
   return (
     <section className={Styles.footer}>
       <main>
@@ -19,4 +19,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
