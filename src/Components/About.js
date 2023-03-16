@@ -1,8 +1,15 @@
 import React from "react";
+import { useEffect } from "react";
+// importing aos
+import AOS from "aos";
+import "aos/dist/aos.css";
 import avi from "../Assets/avi.png";
 import styles from "../Styles/Content.module.css";
 
 const About = ({ handleOpen }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <section
       className={styles.ContentContainer}
@@ -10,14 +17,18 @@ const About = ({ handleOpen }) => {
       style={{ Height: "760px" }}
     >
       <main>
-        <span>
+        <span data-aos="zoom-in-right" data-aos-duration="3000">
           <img
             src={avi}
             alt="avi"
             style={{ height: "510px", width: "100%", borderRadius: "6px" }}
           />
         </span>
-        <div className={styles.ParentAbout}>
+        <div
+          className={styles.ParentAbout}
+          data-aos="zoom-in-left"
+          data-aos-duration="3000"
+        >
           <div className={styles.ChildAbout}>
             <div />
             <h5>ABOUT ME</h5>

@@ -1,5 +1,5 @@
 .NavbarContainer {
-  @apply fixed top-0 left-0 right-0 flex justify-between p-8;
+  @apply fixed z-10 top-0 left-0 right-0 flex justify-between p-8;
 }
 
 .NavbarContainer nav {
@@ -110,13 +110,13 @@
   width: 150px;
   background-color: #d69e2e;
   height: 3px;
-  position: relative;
+  /* position: relative;
   animation-name: move;
   animation-duration: 4s;
-  animation-iteration-count: 2;
+  animation-iteration-count: 2; */
 }
 
-@keyframes move {
+/* @keyframes move {
   0% {
     left: 0px;
     top: 0px;
@@ -137,4 +137,4 @@
     left: 0px;
     top: 0px;
   }
-}
+} */
