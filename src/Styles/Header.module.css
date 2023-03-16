@@ -19,9 +19,9 @@
   color: #f7b633;
 }
 
-/* .Home1:active {
+.Home1:after {
   color: #f7b633;
-} */
+}
 
 .HeaderContainer {
   @apply text-center py-48 bg-cover bg-no-repeat;
@@ -80,6 +80,7 @@
 .Contact:hover {
   color: #f7b633;
   background-color: transparent;
+  border: 1px solid #f7b633;
 }
 
 .Contact:focus {

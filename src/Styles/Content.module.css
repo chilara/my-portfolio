@@ -8,7 +8,8 @@
 }
 
 .ContentContainer main span {
-  @apply w-full bg-black rounded-md h-128;
+  @apply w-full rounded-md;
+  height: 510px;
   box-shadow: "0px 10px 15px -3px rgba(0, 0, 0, 0.1)";
 }
 
@@ -188,7 +189,7 @@ main.ServicesMain:hover {
 }
 
 .firstContainer {
-  @apply flex justify-center;
+  @apply flex justify-center mb-20;
 }
 
 .boxOne {
@@ -199,12 +200,58 @@ main.ServicesMain:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
+.boxOne h1 {
+  @apply mt-10;
+}
+
 .boxTwo {
-  @apply rounded-tr-lg rounded-br-lg;
-  background-color: #d69e2e;
+  @apply rounded-tl-lg rounded-bl-lg;
+  /* background-color: #d69e2e; */
   height: 426px;
   width: 496px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.projectButton1 {
+  @apply mt-10 font-semibold text-lg text-center rounded-lg;
+  background-color: #f7b633;
+  width: 30%;
+  /* height: 43px; */
+  color: #25282b;
+  padding: 8px 24px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+.projectButton2 {
+  @apply mt-10 font-semibold text-lg text-center rounded-lg;
+  width: 30%;
+  /* height: 43px; */
+  padding: 8px 24px;
+  line-height: 150%;
+  border: 1px solid #f7b633;
+  cursor: pointer;
+  color: #f7b633;
+  background-color: transparent;
+}
+
+.projectButton1:hover {
+  color: #f7b633;
+  background-color: transparent;
+  border: 1px solid #f7b633;
+}
+
+.projectButton1:focus {
+  outline: none;
+}
+
+.projectButton2:hover {
+  color: #25282b;
+  background-color: #f7b633;
+}
+
+.projectButton2:focus {
+  outline: none;
 }
 
 .DialogContainer {

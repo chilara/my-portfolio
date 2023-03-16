@@ -15,12 +15,12 @@ const Header = () => {
           <div className={Styles.line} />
         </div>
         <div className={Styles.buttons}>
-          <p className={Styles.Project} role="button">
+          <a className={Styles.Project} role="button" href="#Projects">
             Projects
-          </p>
-          <p className={Styles.Contact} role="button">
+          </a>
+          <a className={Styles.Contact} role="button" href="#Contact">
             Contact
-          </p>
+          </a>
         </div>
       </main>
     </section>

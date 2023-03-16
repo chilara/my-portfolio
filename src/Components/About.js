@@ -1,5 +1,5 @@
 import React from "react";
-// import avi from "../Assets/avi.png";
+import avi from "../Assets/avi.png";
 import styles from "../Styles/Content.module.css";
 
 const About = ({ handleOpen }) => {
@@ -10,8 +10,13 @@ const About = ({ handleOpen }) => {
       style={{ Height: "760px" }}
     >
       <main>
-        <span />
-        {/* <img src={avi} alt="avi" /> */}
+        <span>
+          <img
+            src={avi}
+            alt="avi"
+            style={{ height: "510px", width: "100%", borderRadius: "6px" }}
+          />
+        </span>
         <div className={styles.ParentAbout}>
           <div className={styles.ChildAbout}>
             <div />

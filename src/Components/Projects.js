@@ -28,11 +28,13 @@ const Projects = ({
           <div className={Styles.boxOne}>
             <h1>{title}</h1>
             <p>{description}</p>
-            <div
-              style={{ display: "flex", gap: "10px", border: "1px solid red" }}
-            >
-              <button>{githubRepo}</button>
-              <button>{liveSite}</button>
+            <div style={{ display: "flex", gap: "30px" }}>
+              <div className={Styles.projectButton1} role="button">
+                {githubRepo}
+              </div>
+              <div className={Styles.projectButton2} role="button">
+                {liveSite}
+              </div>
             </div>
           </div>
           <div className={Styles.boxTwo}>{image}</div>
@@ -43,11 +45,13 @@ const Projects = ({
           <div className={Styles.boxOne}>
             <h1>{title}</h1>
             <p>{description}</p>
-            <div
-              style={{ display: "flex", gap: "10px", border: "1px solid red" }}
-            >
-              <button>{githubRepo}</button>
-              <button>{liveSite}</button>
+            <div style={{ display: "flex", gap: "30px" }}>
+              <div className={Styles.projectButton1} role="button">
+                {githubRepo}
+              </div>
+              <div className={Styles.projectButton2} role="button">
+                {liveSite}
+              </div>
             </div>
           </div>
         </>
