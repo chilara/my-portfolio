@@ -52,6 +52,12 @@
   outline: none;
 }
 
+.ParentAbout button:hover {
+  color: #f7b633;
+  background-color: transparent;
+  border: 1px solid #f7b633;
+}
+
 .ContentContainer p {
   @apply text-gray-200 text-justify mt-2;
   font-weight: 100;
@@ -255,12 +261,12 @@ main.ServicesMain:hover {
 
 .DialogContainer {
   @apply;
-  width: 100vh;
 }
 
-.DialogT {
+/* .DialogT {
   @apply flex items-center justify-between px-5;
-}
+  width: 40vw;
+} */
 
 .DialogContainer button:focus {
   outline: none;

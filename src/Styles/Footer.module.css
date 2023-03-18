@@ -42,11 +42,17 @@ textarea::placeholder {
 button {
   @apply mt-32 font-semibold text-lg text-center rounded-lg;
   background-color: #f7b633;
-  width: 98px;
+  width: 12%;
   height: 43px;
   color: #25282b;
   padding: 8px 24px;
   line-height: 150%;
+}
+
+button:hover {
+  color: #f7b633;
+  background-color: transparent;
+  border: 1px solid #f7b633;
 }
 
 button:focus {

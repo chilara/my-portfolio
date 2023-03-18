@@ -3,7 +3,7 @@ import { useEffect } from "react";
 // importing aos
 import AOS from "aos";
 import "aos/dist/aos.css";
-import avi from "../Assets/avi.png";
+import Chisom from "../Assets/Chisom.png";
 import styles from "../Styles/Content.module.css";
 
 const About = ({ handleOpen }) => {
@@ -19,7 +19,7 @@ const About = ({ handleOpen }) => {
       <main>
         <span data-aos="zoom-in-right" data-aos-duration="3000">
           <img
-            src={avi}
+            src={Chisom}
             alt="avi"
             style={{ height: "510px", width: "100%", borderRadius: "6px" }}
           />

@@ -49,12 +49,22 @@ const Projects = ({
             <h1>{title}</h1>
             <p>{description}</p>
             <div style={{ display: "flex", gap: "30px" }}>
-              <div className={Styles.projectButton1} role="button">
-                {githubRepo}
-              </div>
-              <div className={Styles.projectButton2} role="button">
-                {liveSite}
-              </div>
+              <a
+                className={Styles.projectButton1}
+                role="button"
+                href={githubRepo}
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                className={Styles.projectButton2}
+                role="button"
+                href={liveSite}
+                target="_blank"
+              >
+                Live Site
+              </a>
             </div>
           </div>
           <div className={Styles.boxTwo}>{image}</div>
@@ -66,12 +76,22 @@ const Projects = ({
             <h1>{title}</h1>
             <p>{description}</p>
             <div style={{ display: "flex", gap: "30px" }}>
-              <div className={Styles.projectButton1} role="button">
-                {githubRepo}
-              </div>
-              <div className={Styles.projectButton2} role="button">
-                {liveSite}
-              </div>
+              <a
+                className={Styles.projectButton1}
+                role="button"
+                href={githubRepo}
+                target="_blank"
+              >
+                GitHub
+              </a>
+              <a
+                className={Styles.projectButton2}
+                role="button"
+                href={liveSite}
+                target="_blank"
+              >
+                Live Site
+              </a>
             </div>
           </div>
         </>
