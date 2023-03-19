@@ -54,6 +54,7 @@ const Projects = ({
                 role="button"
                 href={githubRepo}
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -62,6 +63,7 @@ const Projects = ({
                 role="button"
                 href={liveSite}
                 target="_blank"
+                rel="noreferrer"
               >
                 Live Site
               </a>
@@ -81,6 +83,7 @@ const Projects = ({
                 role="button"
                 href={githubRepo}
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -89,6 +92,7 @@ const Projects = ({
                 role="button"
                 href={liveSite}
                 target="_blank"
+                rel="noreferrer"
               >
                 Live Site
               </a>

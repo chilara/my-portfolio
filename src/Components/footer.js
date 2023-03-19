@@ -13,6 +13,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/oguine-chisom/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaGithub
                 style={{ width: "30px", height: "20px", marginTop: "5px" }}
@@ -20,14 +21,22 @@ const Footer = () => {
             </a>
           </div>
           <div className={Styles.footerIcons}>
-            <a href="https://github.com/chilara" target="_blank">
+            <a
+              href="https://github.com/chilara"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin
                 style={{ width: "30px", height: "20px", marginTop: "5px" }}
               />
             </a>
           </div>
           <div className={Styles.footerIcons}>
-            <a href="mailto:oguinechisomtimothy@gmail.com" target="_blank">
+            <a
+              href="mailto:oguinechisomtimothy@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <MdEmail
                 style={{ width: "30px", height: "20px", marginTop: "5px" }}
               />
