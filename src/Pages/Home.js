@@ -258,10 +258,9 @@ const Home = () => {
               height: "100%",
             }}
           >
-            <object
-              data={pdfFile}
-              style={{ height: "600px", width: "80vw" }}
-            ></object>
+            <object data={pdfFile} style={{ height: "600px", width: "80vw" }}>
+              My CV
+            </object>
           </div>
         </div>
       </Dialog>
