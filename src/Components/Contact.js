@@ -55,9 +55,11 @@ const Contact = () => {
             data-aos-duration="3000"
           ></textarea>
         </form>
-        <button data-aos="fade-up" data-aos-duration="3000">
-          SEND
-        </button>
+        <a href="mailto:oguinechisomtimothy@gmail.com" target="_blank">
+          <button data-aos="fade-up" data-aos-duration="3000">
+            SEND
+          </button>
+        </a>
       </div>
     </section>
   );

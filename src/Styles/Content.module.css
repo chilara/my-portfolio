@@ -41,8 +41,7 @@
 .ParentAbout button {
   @apply mt-10 font-semibold text-lg text-center rounded-lg;
   background-color: #f7b633;
-  width: 123px;
-  height: 43px;
+  width: 17%;
   color: #25282b;
   padding: 8px 24px;
   line-height: 150%;

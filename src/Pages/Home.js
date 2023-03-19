@@ -28,10 +28,10 @@ import frontend from "../Assets/frontend.png";
 import webDesign from "../Assets/webDesign.png";
 import restApi from "../Assets/restApi.png";
 import webDev from "../Assets/webDev.png";
-// import project1 from "../Assets/project1.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
-import DialogTitle from "@mui/material/DialogTitle";
+import signUpForm from "../Assets/signUpForm.png";
+import BmiApp from "../Assets/BmiApp.png";
 import Dialog from "@mui/material/Dialog";
 import { MdDisabledByDefault } from "react-icons/md";
 
@@ -136,10 +136,11 @@ const projectLists = [
   },
   {
     title: "REST Countries API",
-    description: "Built with react, styled-components, tailwind, redux,",
+    description:
+      "This Project is basically a website that displays country data. You can also view more detailed information about a particular country. User can also toggle color scheme between light and dark mode. Built with react, styled-components, tailwind, redux, Material UI.",
     githubRepo: "https://github.com/chilara/rest-country-api",
     liveSite: "",
-    image: <img src={Rest_countries_API} />,
+    image: <img src={Rest_countries_API} style={{ height: "100%" }} />,
   },
   {
     title: "BMI Calculator",
@@ -147,21 +148,24 @@ const projectLists = [
       "BMI calculator (Body Mass Index) is built for the health-tech sector. It is a way of estimating the amount of body fat. This product is used to calculate the risk of heart disease and check if an individual has a healthy body weight. Built with HTML, CSS and JavaScript.",
     githubRepo: "https://github.com/chilara/BMI-calculator",
     liveSite: "https://chilara.github.io/BMI-calculator/",
-    image: "",
+    image: <img src={BmiApp} style={{ height: "100%" }} />,
   },
   {
     title: "Todo-List App",
-    description: "hcbiucvbfvioenviroevnjrovhrviuerbhreiuvjhrviruvhb",
-    githubRepo: "",
+    description:
+      "This is a web application that is used to document list of activities or events to be done. I implemented the use of React-Router as a means of navigation, used useState to manage states. Built with React, CSS, Formik library.",
+    githubRepo: "https://github.com/chilara/todo-list",
     liveSite: "",
     image: "",
   },
   {
-    title: "Macaw-Consult Website",
-    description: "hcbiucvbfvioenviroevnjrovhrviuerbhreiuvjhrviruvhb",
-    githubRepo: "",
-    liveSite: "",
-    image: "",
+    title: "BootCamp Sign-up form",
+    description:
+      "This Project is a Landing page with a sign up form, aimed at client-side validation using JavaScript. It has a very clean UI, seamless with both desktop and mobile version. Built with HTML, CSS and JavaScript",
+    githubRepo:
+      "https://github.com/chilara/medie-query-Zuri-task/tree/gh-pages",
+    liveSite: "https://chilara.github.io/medie-query-Zuri-task/",
+    image: <img src={signUpForm} style={{ height: "100%" }} />,
   },
 ];
 
@@ -247,7 +251,6 @@ const Home = () => {
         className={Styles.DialogContainer}
       >
         <div style={{ height: "80vh" }}>
-          {/* <div className={Styles.DialogT}></div> */}
           <div
             style={{
               display: "flex",

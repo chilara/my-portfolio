@@ -42,7 +42,7 @@ textarea::placeholder {
 button {
   @apply mt-32 font-semibold text-lg text-center rounded-lg;
   background-color: #f7b633;
-  width: 12%;
+  width: 100%;
   height: 43px;
   color: #25282b;
   padding: 8px 24px;
@@ -121,4 +121,12 @@ button:focus {
 
 .footer main div {
   @apply flex gap-5;
+}
+
+.footerIcons {
+  @apply w-2/5 h-10;
+  border-radius: 50%;
+  background-color: #f7b633;
+  padding: 5px;
+  cursor: pointer;
 }
