@@ -9,7 +9,7 @@ const Navbar = () => {
         style={{ width: "25px", height: "25px", marginLeft: "5rem" }}
       />
       <nav>
-        <a href="" className={Styles.Home1} activeClassName="active">
+        <a href="#" className={Styles.Home1}>
           Home
         </a>
         <a href="#About">About</a>
