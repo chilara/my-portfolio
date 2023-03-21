@@ -9,7 +9,7 @@ import Services from "../Components/Services";
 import { ServicesIntro } from "../Components/Services";
 import Projects, { ProjectIntro } from "../Components/Projects";
 import Contact from "../Components/Contact";
-// import Footer from "../Components/Footer";
+import Footer from "../Components/Footer_";
 import logo1 from "../Assets/logo1.png";
 import logo2 from "../Assets/logo2.png";
 import logo3 from "../Assets/logo3.png";
@@ -243,8 +243,7 @@ const Home = () => {
         ))}
       </div>
       <Contact />
-      {/* <Footer /> */}
-      <p>I am a footer</p>
+      <Footer />
       <Dialog
         onClose={handleClose}
         open={open}
