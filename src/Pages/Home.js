@@ -187,7 +187,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section>
+    <section id="Home">
       <div className={Styles.headerImage}>
         <main>
           <Navbar />
