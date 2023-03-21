@@ -56,7 +56,7 @@ const Contact = () => {
           ></textarea>
         </form>
         <a
-          href="mailto:oguinechisomtimothy@gmail.com"
+          href="mailto:oguinechisomtimothycareer@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
