@@ -11,18 +11,18 @@ const Footer = () => {
         <div>
           <div className={Styles.footerIcons}>
             <a
-              href="https://www.linkedin.com/in/oguine-chisom/"
               target="_blank"
+              href="https://github.com/chilara"
               rel="noreferrer"
-            >
+              >
               <FaGithub
                 style={{ width: "30px", height: "20px", marginTop: "5px" }}
-              />
+                />
             </a>
           </div>
           <div className={Styles.footerIcons}>
             <a
-              href="https://github.com/chilara"
+                href="https://www.linkedin.com/in/oguine-chisom/"
               target="_blank"
               rel="noreferrer"
             >

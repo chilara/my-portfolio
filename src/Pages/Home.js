@@ -32,6 +32,7 @@ import advice_gen_app from "../Assets/advice_gen_app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import signUpForm from "../Assets/signUpForm.png";
 import BmiApp from "../Assets/BmiApp.png";
+import Macaw from "../Assets/Macaw.png";
 import Dialog from "@mui/material/Dialog";
 
 const skillList = [
@@ -150,12 +151,12 @@ const projectLists = [
     image: <img src={BmiApp} alt="" style={{ height: "100%" }} />,
   },
   {
-    title: "Todo-List App",
+    title: "Macaw Consult",
     description:
-      "This is a web application that is used to document list of activities or events to be done. I implemented the use of React-Router as a means of navigation, used useState to manage states. Built with React, CSS, Formik library.",
-    githubRepo: "https://github.com/chilara/todo-list",
-    liveSite: "",
-    image: "",
+      "Macaw Consult is a client-centred global logistics provider that is passionate about serving its clients with excellence in meeting their unique needs by providing end-to-end services. Built with HTML and CSS.",
+    githubRepo: "https://github.com/chilara/macaw-consult",
+    liveSite: "https://chilara.github.io/macaw-consult/",
+    image: <img src={Macaw} alt="" style={{ height: "100%" }} />,
   },
   {
     title: "BootCamp Sign-up form",

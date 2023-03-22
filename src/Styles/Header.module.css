@@ -10,8 +10,7 @@
 }
 
 .NavbarContainer nav a {
-  @apply font-normal text-white text-lg;
-  cursor: pointer;
+  @apply font-normal text-white text-lg cursor-pointer;
 }
 
 .NavbarContainer nav a:hover {
@@ -19,7 +18,8 @@
   color: #f7b633;
 }
 
-.Home1:after {
+.ActiveState {
+  @apply w-3 rounded-lg;
   color: #f7b633;
 }
 

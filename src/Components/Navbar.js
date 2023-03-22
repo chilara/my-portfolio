@@ -9,14 +9,24 @@ const Navbar = () => {
         style={{ width: "25px", height: "25px", marginLeft: "5rem" }}
       />
       <nav>
-        <a href="#Home" className={Styles.Home1}>
+        <a href="Home" activeClass="active">
           Home
         </a>
-        <a href="#About">About</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Services">Services</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Contact">Contact</a>
+        <a href="#About" activeStyle={Styles.ActiveState}>
+          About
+        </a>
+        <a href="#Skills" activeClass="active">
+          Skills
+        </a>
+        <a href="#Services" activeClass="active">
+          Services
+        </a>
+        <a href="#Projects" activeClass="active">
+          Projects
+        </a>
+        <a href="#Contact" activeClass="active">
+          Contact
+        </a>
       </nav>
     </section>
   );
