@@ -36,11 +36,13 @@ const Services = ({ image, heading, content }) => {
       data-aos="zoom-in-right"
       data-aos-duration="3000"
     >
-      <div>
-        <img src={image} alt="img" />
-      </div>
-      <h3>{heading}</h3>
-      <h6>{content}</h6>
+      <section>
+        <div>
+          <img src={image} alt="img" />
+        </div>
+        <h3>{heading}</h3>
+        <h6>{content}</h6>
+      </section>
     </main>
   );
 };

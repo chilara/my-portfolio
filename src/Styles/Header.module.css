@@ -30,6 +30,7 @@
 
 .HeaderContainer main {
   @apply flex flex-col bg-transparent;
+  width: 1515px;
 }
 
 .HeaderContainer main h6 {

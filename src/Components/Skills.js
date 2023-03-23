@@ -31,14 +31,23 @@ const Skills = ({ image, content }) => {
     AOS.init();
   }, []);
   return (
-    <main
+    <section
       className={Styles.main}
       data-aos="zoom-in-right"
       data-aos-duration="3000"
     >
-      <img src={image} alt="img" />
-      <div>{content}</div>
-    </main>
+      <main
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "space-around",
+          alignItems: "center",
+        }}
+      >
+        <img src={image} alt="img" />
+        <div>{content}</div>
+      </main>
+    </section>
   );
 };
 

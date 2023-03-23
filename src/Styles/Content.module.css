@@ -4,11 +4,13 @@
 }
 
 .ContentContainer main {
-  @apply flex gap-8 w-4/5;
+  @apply flex gap-8;
+  width: 1150px;
 }
 
 .ContentContainer main span {
-  @apply w-full rounded-md;
+  @apply rounded-md;
+  width: 1440px;
   height: 510px;
   box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
 }
@@ -69,7 +71,7 @@
 .main {
   @apply flex justify-around  rounded-md shadow-lg mb-8 items-center p-5;
   background-color: #282a29;
-  width: 24%;
+  width: 250px;
 }
 
 .main img {
@@ -143,6 +145,11 @@
   border-radius: 10px;
 }
 
+.ServicesMain section {
+  @apply;
+  width: 500px;
+}
+
 .ServicesMain h3 {
   @apply font-semibold text-lg py-5;
 }
@@ -161,6 +168,7 @@ main.ServicesMain:hover {
 
 .ServicesMain h6 {
   @apply font-hairline;
+  width: 290px;
 }
 
 .ServicesMain div {
@@ -198,7 +206,7 @@ main.ServicesMain:hover {
 .boxOne {
   @apply rounded-tl-lg rounded-bl-lg px-10 py-5;
   background-color: #282a29;
-  height: 426px;
+  height: 390px;
   width: 496px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
@@ -209,8 +217,7 @@ main.ServicesMain:hover {
 
 .boxTwo {
   @apply rounded-tl-lg rounded-bl-lg;
-  /* background-color: #d69e2e; */
-  height: 426px;
+  height: 390px;
   width: 496px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
@@ -219,7 +226,6 @@ main.ServicesMain:hover {
   @apply mt-10 font-semibold text-lg text-center rounded-lg;
   background-color: #f7b633;
   width: 30%;
-  /* height: 43px; */
   color: #25282b;
   padding: 8px 24px;
   line-height: 150%;
@@ -229,7 +235,6 @@ main.ServicesMain:hover {
 .projectButton2 {
   @apply mt-10 font-semibold text-lg text-center rounded-lg;
   width: 30%;
-  /* height: 43px; */
   padding: 8px 24px;
   line-height: 150%;
   border: 1px solid #f7b633;
