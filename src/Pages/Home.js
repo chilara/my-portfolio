@@ -32,7 +32,7 @@ import advice_gen_app from "../Assets/advice_gen_app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import signUpForm from "../Assets/signUpForm.png";
 import BmiApp from "../Assets/BmiApp.png";
-import Macaw from "../Assets/Macaw.png";
+import Docre from "../Assets/Docre.png";
 import Dialog from "@mui/material/Dialog";
 
 const skillList = [
@@ -135,9 +135,28 @@ const projectLists = [
     image: <img src={advice_gen_app} alt="" style={{ height: "100%" }} />,
   },
   {
+    title: "Docre Blog",
+    description:
+      "This is a blog website where users can upload their articles in a conventional style with accompanying avatars, titles, and URLs of the article. Built with React, pure CSS, RESTFUL APIs and Axios.",
+    githubRepo: "https://github.com/chilara/Docre-Blog",
+    liveSite: "https://capstone-project-chilara.vercel.app/",
+    image: (
+      <img
+        src={Docre}
+        alt=""
+        style={{
+          height: "60%",
+          width: "90%",
+          marginTop: "15%",
+          marginLeft: "5%",
+        }}
+      />
+    ),
+  },
+  {
     title: "REST Countries API",
     description:
-      "This Project is basically a website that displays country data. You can also view more detailed information about a particular country. User can also toggle color scheme between light and dark mode. Built with react, styled-components, tailwind, redux, Material UI.",
+      "This Project is basically a website that displays country data. You can also view more detailed information about a particular country. User can also toggle color scheme between light and dark mode. Built with React, styled-components, tailwind, redux, Material UI.",
     githubRepo: "https://github.com/chilara/rest-country-api",
     liveSite: "",
     image: <img src={Rest_countries_API} alt="" style={{ height: "100%" }} />,
@@ -148,15 +167,18 @@ const projectLists = [
       "BMI calculator (Body Mass Index) is built for the health-tech sector. It is a way of estimating the amount of body fat. This product is used to calculate the risk of heart disease and check if an individual has a healthy body weight. Built with HTML, CSS and JavaScript.",
     githubRepo: "https://github.com/chilara/BMI-calculator",
     liveSite: "https://chilara.github.io/BMI-calculator/",
-    image: <img src={BmiApp} alt="" style={{ height: "100%" }} />,
-  },
-  {
-    title: "Macaw Consult",
-    description:
-      "Macaw Consult is a client-centred global logistics provider that is passionate about serving its clients with excellence in meeting their unique needs by providing end-to-end services. Built with HTML and CSS.",
-    githubRepo: "https://github.com/chilara/macaw-consult",
-    liveSite: "https://chilara.github.io/macaw-consult/",
-    image: <img src={Macaw} alt="" style={{ height: "100%" }} />,
+    image: (
+      <img
+        src={BmiApp}
+        alt=""
+        style={{
+          height: "63%",
+          width: "90%",
+          marginTop: "15%",
+          marginLeft: "5%",
+        }}
+      />
+    ),
   },
   {
     title: "BootCamp Sign-up form",

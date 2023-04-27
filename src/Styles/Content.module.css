@@ -212,11 +212,11 @@ main.ServicesMain:hover {
 }
 
 .boxOne h1 {
-  @apply mt-10 text-3xl;
+  @apply mt-8 text-3xl;
 }
 
 .boxTwo {
-  @apply rounded-tl-lg rounded-bl-lg;
+  background-color: #f0f0f0;
   height: 390px;
   width: 496px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
@@ -265,11 +265,6 @@ main.ServicesMain:hover {
 .DialogContainer {
   @apply;
 }
-
-/* .DialogT {
-  @apply flex items-center justify-between px-5;
-  width: 40vw;
-} */
 
 .DialogContainer button:focus {
   outline: none;
