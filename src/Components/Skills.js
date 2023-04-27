@@ -14,12 +14,12 @@ export const SkillsIntro = () => {
       <div
         className={Styles.ParentSkills}
         data-aos="zoom-in-left"
-        data-aos-duration="3000"
+        data-aos-duration="2500"
       >
         <div />
         <h5>MY SKILLS</h5>
       </div>
-      <h1 data-aos="zoom-in-left" data-aos-duration="3000">
+      <h1 data-aos="zoom-in-left" data-aos-duration="2500">
         What I am Good At
       </h1>
     </section>
@@ -34,7 +34,7 @@ const Skills = ({ image, content }) => {
     <section
       className={Styles.main}
       data-aos="zoom-in-right"
-      data-aos-duration="3000"
+      data-aos-duration="2500"
     >
       <main
         style={{

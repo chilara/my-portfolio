@@ -16,15 +16,15 @@ const Contact = () => {
           <div
             className={Styles.line}
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="2500"
           />
-          <h3 data-aos="zoom-in" data-aos-duration="3000">
+          <h3 data-aos="zoom-in" data-aos-duration="2500">
             Get In Touch
           </h3>
           <div
             className={Styles.line}
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="2500"
           />
         </div>
         <form>
@@ -33,26 +33,26 @@ const Contact = () => {
               placeholder="SURNAME"
               style={{ outline: "none" }}
               data-aos="fade-left"
-              data-aos-duration="3000"
+              data-aos-duration="2500"
             />
             <input
               placeholder="FIRST NAME"
               style={{ outline: "none" }}
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="2500"
             />
           </div>
           <input
             placeholder="EMAIL"
             style={{ outline: "none" }}
             data-aos="fade-left"
-            data-aos-duration="3000"
+            data-aos-duration="2500"
           />
           <textarea
             placeholder="MESSAGE"
             style={{ outline: "none" }}
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="2500"
           ></textarea>
         </form>
         <a
@@ -60,9 +60,7 @@ const Contact = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <button data-aos="fade-up" data-aos-duration="3000">
-            SEND
-          </button>
+          <button>SEND</button>
         </a>
       </div>
     </section>

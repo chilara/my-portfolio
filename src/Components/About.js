@@ -17,7 +17,7 @@ const About = ({ handleOpen }) => {
       style={{ Height: "760px" }}
     >
       <main>
-        <span data-aos="zoom-in-right" data-aos-duration="3000">
+        <span data-aos="zoom-in-right" data-aos-duration="2500">
           <img
             src={Chisom}
             alt="avi"
@@ -27,7 +27,7 @@ const About = ({ handleOpen }) => {
         <div
           className={styles.ParentAbout}
           data-aos="zoom-in-left"
-          data-aos-duration="3000"
+          data-aos-duration="2500"
         >
           <div className={styles.ChildAbout}>
             <div />

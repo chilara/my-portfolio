@@ -183,7 +183,7 @@ const projectLists = [
   {
     title: "BootCamp Sign-up form",
     description:
-      "This Project is a Landing page with a sign up form, aimed at client-side validation using JavaScript. It has a very clean UI, seamless with both desktop and mobile version. Built with HTML, CSS and JavaScript",
+      "This Project is a Landing page with a sign up form, aimed at client-side validation using JavaScript. It has a very clean UI, seamless with both desktop and mobile version. Built with HTML, CSS and JavaScript.",
     githubRepo:
       "https://github.com/chilara/medie-query-Zuri-task/tree/gh-pages",
     liveSite: "https://chilara.github.io/medie-query-Zuri-task/",
