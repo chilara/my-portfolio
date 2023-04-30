@@ -168,7 +168,7 @@ main.ServicesMain:hover {
 
 .ServicesMain h6 {
   @apply font-hairline;
-  width: 290px;
+  width: 300px;
 }
 
 .ServicesMain div {

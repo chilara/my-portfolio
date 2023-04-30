@@ -1,14 +1,7 @@
 import React from "react";
-import { useEffect } from "react";
-// importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Styles from "../Styles/Content.module.css";
 
 export const SkillsIntro = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section id="Skills" className={Styles.SkillIntro}>
       <div
@@ -27,9 +20,6 @@ export const SkillsIntro = () => {
 };
 
 const Skills = ({ image, content }) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section
       className={Styles.main}

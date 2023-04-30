@@ -1,14 +1,7 @@
 import React from "react";
-import { useEffect } from "react";
-// importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Styles from "../Styles/Content.module.css";
 
 export const ProjectIntro = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section id="Projects">
       <div
@@ -34,9 +27,6 @@ const Projects = ({
   image,
   even,
 }) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div
       className={Styles.firstContainer}

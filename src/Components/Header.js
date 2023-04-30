@@ -1,14 +1,7 @@
 import React from "react";
-import { useEffect } from "react";
-// importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Styles from "../Styles/Header.module.css";
 
 const Header = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section className={Styles.HeaderContainer}>
       <main>

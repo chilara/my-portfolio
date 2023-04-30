@@ -1,15 +1,9 @@
-import React from "react";
-import { useEffect } from "react";
-// importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react"
 import Chisom from "../Assets/Chisom.png";
 import styles from "../Styles/Content.module.css";
 
 const About = ({ handleOpen }) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+ 
   return (
     <section
       className={styles.ContentContainer}

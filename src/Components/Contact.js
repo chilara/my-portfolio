@@ -1,14 +1,7 @@
 import React from "react";
-import { useEffect } from "react";
-// importing aos
-import AOS from "aos";
-import "aos/dist/aos.css";
 import Styles from "../Styles/Footer.module.css";
 
 const Contact = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section id="Contact" className={Styles.ContactContainer}>
       <div className={Styles.ParentContact}>
