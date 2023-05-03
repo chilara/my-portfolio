@@ -210,7 +210,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section id="Home">
+    <section className="Homee" id="Home">
       <div className={Styles.headerImage}>
         <main>
           <Navbar />
@@ -220,14 +220,7 @@ const Home = () => {
       <About handleOpen={handleOpen} />
       <div className={Styles.skillsContainer}>
         <SkillsIntro />
-        <div
-          className={Styles.SkillsFlex}
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "space-between",
-          }}
-        >
+        <div className={Styles.SkillsFlex}>
           {skillList.map((items) => (
             <Skills image={items.image} content={items.content} />
           ))}
@@ -235,14 +228,7 @@ const Home = () => {
       </div>
       <div className={Styles.ServicesContainer}>
         <ServicesIntro />
-        <div
-          className={Styles.ServicesFlex}
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "space-between",
-          }}
-        >
+        <div className={Styles.ServicesFlex}>
           {ServiceList.map((items) => (
             <Services
               image={items.image}

@@ -1,3 +1,8 @@
+.App {
+  width: 1517px;
+  background-color: black;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

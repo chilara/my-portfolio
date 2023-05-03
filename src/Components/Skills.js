@@ -26,17 +26,8 @@ const Skills = ({ image, content }) => {
       data-aos="zoom-in-right"
       data-aos-duration="2500"
     >
-      <main
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "space-around",
-          alignItems: "center",
-        }}
-      >
-        <img src={image} alt="img" />
-        <div>{content}</div>
-      </main>
+      <img src={image} alt="img" />
+      <div>{content}</div>
     </section>
   );
 };

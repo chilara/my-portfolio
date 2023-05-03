@@ -27,7 +27,32 @@ const Navbar = () => {
         <a href="#Contact" activeClass="active">
           Contact
         </a>
+        {/* <button className={Styles.hamburger} onclick="toggler()">
+          <div className={Styles.lines}></div>
+          <div className={Styles.lines}></div>
+          <div className={Styles.lines}></div>
+        </button> */}
       </nav>
+      {/* <div className={Styles.menuMobile}>
+        <a href="Home" className="home active">
+          Home
+        </a>
+        <a href="#About" className="about">
+          About
+        </a>
+        <a href="#Skills" className="contact">
+          Skills
+        </a>
+        <a href="#Services" className="Services">
+          Services
+        </a>
+        <a href="#Project" className="Project">
+          Project
+        </a>
+        <a href="#Contact" className="Contact">
+          Project
+        </a>
+      </div> */}
     </section>
   );
 };
