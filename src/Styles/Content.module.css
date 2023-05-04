@@ -380,12 +380,12 @@ main.ServicesMain:hover {
 
   .ServicesContainer {
     @apply text-white py-32 px-40;
-    height: 2250px;
+    height: 4950px;
     background-color: #282a29;
   }
 
   .ServicesMain {
-    @apply flex flex-col mb-10 p-8 items-center justify-center;
+    @apply flex flex-col mb-16 p-32 items-center justify-center;
     background-color: #2c2e2d;
     width: 100%;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
@@ -393,34 +393,35 @@ main.ServicesMain:hover {
   }
 
   .ServicesMain h3 {
-    @apply font-semibold text-2xl py-5 text-center;
+    @apply font-semibold text-5xl py-5 text-center;
     width: 100%;
   }
 
   .ServicesMain img {
     @apply;
-    width: 45px;
-    height: 40px;
+    width: 115px;
+    height: 110px;
   }
 
   .ServicesMain h6 {
-    @apply font-hairline text-center text-xl;
+    @apply font-hairline text-center;
     width: 100%;
+    font-size: 40px;
   }
 
   .ServicesMain div {
     @apply flex items-center justify-center;
     background-color: #d69e2e;
-    width: 65px;
-    height: 60px;
+    width: 145px;
+    height: 140px;
     border-radius: 50%;
   }
 
   .ServicesFlex {
     @apply flex flex-col  justify-around items-center pb-32;
-    width: 86%;
-    margin-left: 7%;
-    margin-right: 7%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .ServicesIntro {
