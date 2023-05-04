@@ -69,15 +69,12 @@
 }
 
 .main {
-  @apply flex justify-around  rounded-md shadow-lg mb-8 items-center p-5;
+  @apply flex justify-around  rounded-md shadow-lg mb-8 items-center p-5 w-64;
   background-color: #282a29;
-  width: 250px;
 }
 
 .main img {
-  @apply;
-  width: 50px;
-  height: 50px;
+  @apply w-12 h-12;
 }
 
 .main:hover {
@@ -152,11 +149,6 @@
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-
-/* .ServicesMain section {
-  @apply;
-  width: 300px;
-} */
 
 .ServicesMain h3 {
   @apply font-semibold text-lg py-5;
@@ -295,9 +287,9 @@ main.ServicesMain:hover {
 
   .ContentContainer main {
     @apply flex gap-8;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
   .ContentContainer main span {
@@ -311,24 +303,24 @@ main.ServicesMain:hover {
   }
 
   .ChildAbout {
-    @apply flex items-center gap-3 w-32 text-center rounded-md;
+    @apply flex items-center gap-3 w-48;
   }
 
   .ChildAbout div {
-    @apply w-8 h-1;
+    @apply w-12 h-2;
     background-color: #d69e2e;
   }
 
   .ChildAbout h5 {
-    @apply text-white text-base my-4;
+    @apply text-white text-3xl my-4 w-1/2;
   }
 
   .ParentAbout h1 {
-    @apply font-bold text-4xl text-white;
+    @apply font-bold text-6xl text-white;
   }
 
   .ParentAbout button {
-    @apply w-1/4 mt-10 font-semibold text-lg text-center rounded-lg;
+    @apply w-1/4 mt-10 font-semibold text-5xl text-center rounded-lg;
     background-color: #f7b633;
     color: #25282b;
     padding: 8px 24px;
@@ -336,7 +328,7 @@ main.ServicesMain:hover {
   }
 
   .ContentContainer p {
-    @apply text-gray-200 text-center mt-5 font-light text-2xl;
+    @apply text-gray-200 text-center mt-5 font-hairline text-5xl;
   }
 
   .skillsContainer {
@@ -352,9 +344,7 @@ main.ServicesMain:hover {
   }
 
   .main img {
-    @apply;
-    width: 70px;
-    height: 70px;
+    @apply w-20 h-20;
   }
 
   .main div {
