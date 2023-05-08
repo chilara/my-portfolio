@@ -137,7 +137,7 @@ const projectLists = [
   {
     title: "Docre Blog",
     description:
-      "This is a blog website where users can upload their articles in a conventional style with accompanying avatars, titles, and URLs of the article. Built with React, CSS, RESTFUL APIs and Axios.",
+      "This is a blog website where users can upload their articles in a conventional style with accompanying avatars, titles, and URLs of the article. Built with React, CSS, RESTFUL APIs, Axios, Node.js, MongoDB.",
     githubRepo: "https://github.com/chilara/Docre-Blog",
     liveSite: "https://capstone-project-chilara.vercel.app/",
     image: (

@@ -3,7 +3,7 @@ import Styles from "../Styles/Content.module.css";
 
 export const ProjectIntro = () => {
   return (
-    <section id="Projects">
+    <section id="Projects" className={Styles.ProjectMain}>
       <div
         className={Styles.ParentProject}
         data-aos="zoom-in-left"

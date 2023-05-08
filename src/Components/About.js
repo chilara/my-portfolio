@@ -1,9 +1,8 @@
-import React from "react"
+import React from "react";
 import Chisom from "../Assets/Chisom.png";
 import styles from "../Styles/Content.module.css";
 
 const About = ({ handleOpen }) => {
- 
   return (
     <section
       className={styles.ContentContainer}
@@ -29,9 +28,9 @@ const About = ({ handleOpen }) => {
           </div>
           <h1>Who Am I</h1>
           <p>
-            I am an innovative Front-end Developer with two years of experience
-            building and maintaining scalable, responsive, and well-documented
-            websites and web applications.
+            I am an innovative Front-end Developer with experience in building
+            and maintaining scalable, responsive, and well-documented websites
+            and web applications.
           </p>
           <br />
           <p>
