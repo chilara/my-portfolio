@@ -147,8 +147,6 @@ const projectLists = [
         style={{
           height: "60%",
           width: "90%",
-          // marginTop: "15%",
-          // marginLeft: "5%",
         }}
       />
     ),
@@ -174,8 +172,6 @@ const projectLists = [
         style={{
           height: "63%",
           width: "90%",
-          // marginTop: "15%",
-          // marginLeft: "5%",
         }}
       />
     ),

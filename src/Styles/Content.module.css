@@ -485,7 +485,7 @@ main.ServicesMain:hover {
   }
 
   .boxOne {
-    @apply rounded-tl-lg rounded-bl-lg px-10 py-12;
+    @apply rounded-tl-lg rounded-bl-lg px-10 py-10;
     background-color: #282a29;
     height: 600px;
     width: 970px;
@@ -497,7 +497,8 @@ main.ServicesMain:hover {
   }
 
   .boxOne p {
-    @apply text-3xl font-normal;
+    @apply font-normal;
+    font-size: 32px;
   }
 
   .boxTwo {
