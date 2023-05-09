@@ -216,6 +216,7 @@ main.ServicesMain:hover {
 }
 
 .boxTwo {
+  @apply flex justify-center items-center;
   background-color: #f0f0f0;
   height: 390px;
   width: 496px;
@@ -450,7 +451,7 @@ main.ServicesMain:hover {
 
   .ProjectIntro {
     @apply text-white py-32 px-40;
-    height: 4730px;
+    height: 6900px;
     background-color: #2c2e2d;
   }
 
@@ -480,6 +481,70 @@ main.ServicesMain:hover {
   }
 
   .firstContainer {
-    @apply flex flex-col justify-center mb-20;
+    @apply flex flex-col justify-center items-center mb-20;
+  }
+
+  .boxOne {
+    @apply rounded-tl-lg rounded-bl-lg px-10 py-12;
+    background-color: #282a29;
+    height: 600px;
+    width: 970px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .boxOne h1 {
+    @apply mt-8 text-5xl;
+  }
+
+  .boxOne p {
+    @apply text-3xl font-normal;
+  }
+
+  .boxTwo {
+    @apply flex justify-center items-center;
+    background-color: #f0f0f0;
+    height: 600px;
+    width: 970px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .projectButton1 {
+    @apply mt-10 font-semibold text-3xl text-center rounded-lg;
+    background-color: #f7b633;
+    width: 30%;
+    color: #25282b;
+    padding: 12px 30px;
+    line-height: 150%;
+    cursor: pointer;
+  }
+
+  .projectButton2 {
+    @apply mt-10 font-semibold text-3xl text-center rounded-lg;
+    width: 30%;
+    padding: 12px 30px;
+    line-height: 150%;
+    border: 1px solid #f7b633;
+    cursor: pointer;
+    color: #f7b633;
+    background-color: transparent;
+  }
+
+  .projectButton1:hover {
+    color: #f7b633;
+    background-color: transparent;
+    border: 1px solid #f7b633;
+  }
+
+  .projectButton1:focus {
+    outline: none;
+  }
+
+  .projectButton2:hover {
+    color: #25282b;
+    background-color: #f7b633;
+  }
+
+  .projectButton2:focus {
+    outline: none;
   }
 }
