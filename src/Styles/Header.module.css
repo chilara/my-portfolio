@@ -1,5 +1,5 @@
 .NavbarContainer {
-  @apply fixed z-10 top-0 left-0 right-0 flex justify-between p-8;
+  @apply fixed z-10 top-0 left-0 right-0 items-center flex justify-between p-8;
 }
 
 .NavbarContainer nav {
@@ -109,7 +109,6 @@
 .hamburger {
   @apply;
   display: none;
-  width: 30px;
   border-width: 0px;
 }
 
@@ -118,67 +117,41 @@
   display: none;
 }
 
-/* .hide {
-  display: none;
-} */
-
-@media only screen and (max-width: 1024px) and (min-width: 800px),
-  only screen and (max-device-width: 1024px) and (min-device-width: 800px) {
-  .NavbarContainer {
-    @apply;
-    display: none;
-  }
-
-  /* .HeaderContainer {
-    @apply text-center py-48 bg-cover bg-no-repeat;
-    height: 755px;
-    width: 5000px;
-  }
-
-  .HeaderContainer main {
-    @apply flex flex-col bg-transparent;
-    width: 1515px;
-  } */
-}
-
 @media only screen and(max-width:799px),
   only screen and (max-device-width: 799px) {
-  .NavbarContainer {
-    @apply;
-    display: none;
-  }
   .hamburger {
     @apply;
     display: block;
     border: none;
-    background-color: #151515;
     cursor: pointer;
   }
 
-  /* .login,
-  .home,
-  .registration,
-  .about,
-  .contact {
-    margin: 6px 0px;
-  } */
+  .NavbarContainer nav {
+    @apply hidden;
+  }
 
   .lines {
-    background-color: #ffffff;
-    height: 2px;
-    width: 110%;
-    margin-top: 100px 0;
+    background-color: #fff;
+    height: 10px;
+    border: none;
+    width: 60px;
+    margin: 3px 0;
     margin-left: 10% 0;
   }
 
-  .line2 {
-    margin: 5px 0;
-  }
-
   .menuMobile {
+    background-color: #25282b;
     align-items: center;
     flex-direction: column;
-    padding-right: 2%;
+    padding: 2%;
+    width: 30%;
+    right: 0%;
+    /* left: 90%; */
+    margin-top: 13%;
+    color: white;
+    /* padding-top: 13%; */
+    display: flex;
+    position: fixed;
   }
 
   .HeaderContainer main h6 {

@@ -1,59 +1,75 @@
-import React from "react";
+import React, { useState } from "react";
 import Styles from "../Styles/Header.module.css";
-import { FcSportsMode } from "react-icons/fc";
+import iconLogo from "../Assets/iconlogo.png";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const toggler = () => {
+    setOpen(!open);
+  };
   return (
-    <section className={Styles.NavbarContainer}>
-      <FcSportsMode
-        style={{ width: "25px", height: "25px", marginLeft: "5rem" }}
-      />
-      <nav>
-        <a href="Home" activeClass="active">
-          Home
-        </a>
-        <a href="#About" activeStyle={Styles.ActiveState}>
-          About
-        </a>
-        <a href="#Skills" activeClass="active">
-          Skills
-        </a>
-        <a href="#Services" activeClass="active">
-          Services
-        </a>
-        <a href="#Projects" activeClass="active">
-          Projects
-        </a>
-        <a href="#Contact" activeClass="active">
-          Contact
-        </a>
-        {/* <button className={Styles.hamburger} onclick="toggler()">
+    <>
+      <section style={{ padding: "32px" }} className={Styles.NavbarContainer}>
+        <div style={{ width: "100px", height: "100px", marginLeft: "5rem" }}>
+          <img src={iconLogo} alt="logo" />
+        </div>
+        <nav>
+          <a href="Home" activeClass="active">
+            Home
+          </a>
+          <a href="#About" activeStyle={Styles.ActiveState}>
+            About
+          </a>
+          <a href="#Skills" activeClass="active">
+            Skills
+          </a>
+          <a href="#Services" activeClass="active">
+            Services
+          </a>
+          <a href="#Projects" activeClass="active">
+            Projects
+          </a>
+          <a href="#Contact" activeClass="active">
+            Contact
+          </a>
+        </nav>
+        <div
+          style={{ padding: "50px 0" }}
+          className={Styles.hamburger}
+          onClick={toggler}
+        >
           <div className={Styles.lines}></div>
           <div className={Styles.lines}></div>
           <div className={Styles.lines}></div>
-        </button> */}
-      </nav>
-      {/* <div className={Styles.menuMobile}>
-        <a href="Home" className="home active">
-          Home
-        </a>
-        <a href="#About" className="about">
-          About
-        </a>
-        <a href="#Skills" className="contact">
-          Skills
-        </a>
-        <a href="#Services" className="Services">
-          Services
-        </a>
-        <a href="#Project" className="Project">
-          Project
-        </a>
-        <a href="#Contact" className="Contact">
-          Project
-        </a>
-      </div> */}
-    </section>
+        </div>
+      </section>
+      {open && (
+        <div className={Styles.menuMobile}>
+          <a onClick={() => setOpen(false)} href="Home" className="home active">
+            Home
+          </a>
+          <a onClick={() => setOpen(false)} href="#About" className="about">
+            About
+          </a>
+          <a onClick={() => setOpen(false)} href="#Skills" className="contact">
+            Skills
+          </a>
+          <a
+            onClick={() => setOpen(false)}
+            href="#Services"
+            className="Services"
+          >
+            Services
+          </a>
+          <a onClick={() => setOpen(false)} href="#Project" className="Project">
+            Project
+          </a>
+          <a onClick={() => setOpen(false)} href="#Contact" className="Contact">
+            Contact
+          </a>
+        </div>
+      )}
+    </>
   );
 };
 
