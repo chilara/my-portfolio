@@ -7,12 +7,12 @@ export const ProjectIntro = () => {
       <div
         className={Styles.ParentProject}
         data-aos="zoom-in-left"
-        data-aos-duration="2500"
+        data-aos-duration="3000"
       >
         <div />
         <h5>MY PROJECTS</h5>
       </div>
-      <h1 data-aos="zoom-in-left" data-aos-duration="2500">
+      <h1 data-aos="zoom-in-left" data-aos-duration="3000">
         What I Have Done
       </h1>
     </section>
@@ -31,7 +31,7 @@ const Projects = ({
     <div
       className={Styles.firstContainer}
       data-aos="zoom-in-right"
-      data-aos-duration="2500"
+      data-aos-duration="3000"
     >
       {even ? (
         <>

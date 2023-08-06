@@ -31,7 +31,6 @@ import webDev from "../Assets/webDev.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import signUpForm from "../Assets/signUpForm.png";
-import BmiApp from "../Assets/BmiApp.png";
 import Docre from "../Assets/Docre.png";
 import Dialog from "@mui/material/Dialog";
 
@@ -160,23 +159,6 @@ const projectLists = [
     image: <img src={Rest_countries_API} alt="" style={{ height: "100%" }} />,
   },
   {
-    title: "BMI Calculator",
-    description:
-      "BMI calculator (Body Mass Index) is built for the health-tech sector. It is a way of estimating the amount of body fat. This product is used to calculate the risk of heart disease and check if an individual has a healthy body weight. Built with HTML, CSS and vanilla JavaScript.",
-    githubRepo: "https://github.com/chilara/BMI-calculator",
-    liveSite: "https://chilara.github.io/BMI-calculator/",
-    image: (
-      <img
-        src={BmiApp}
-        alt=""
-        style={{
-          height: "63%",
-          width: "90%",
-        }}
-      />
-    ),
-  },
-  {
     title: "BootCamp Sign-up form",
     description:
       "This Project is a Landing page with a sign up form, aimed at client-side validation using JavaScript. It has a very clean UI, seamless with both desktop and mobile version. Built with HTML, CSS and vanilla JavaScript.",
@@ -206,7 +188,7 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="Homee" id="Home">
+    <section id="Home">
       <div className={Styles.headerImage}>
         <main>
           <Navbar />

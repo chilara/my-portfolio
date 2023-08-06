@@ -1,18 +1,28 @@
 import React, { useState } from "react";
 import Styles from "../Styles/Header.module.css";
 import iconLogo from "../Assets/iconlogo.png";
+import logoIcon from "../Assets/logoIcon.png";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const toggler = () => {
     setOpen(!open);
   };
+
+  const closeNavbar = () => {
+    setOpen(false);
+  };
+
   return (
     <>
       <section style={{ padding: "32px" }} className={Styles.NavbarContainer}>
-        <div style={{ width: "100px", height: "100px", marginLeft: "5rem" }}>
+        <a
+          href="Home"
+          style={{ width: "100px", height: "100px", marginLeft: "5rem" }}
+        >
           <img src={iconLogo} alt="logo" />
-        </div>
+        </a>
         <nav>
           <a href="Home" activeClass="active">
             Home
@@ -34,7 +44,7 @@ const Navbar = () => {
           </a>
         </nav>
         <div
-          style={{ padding: "50px 0" }}
+          style={{ padding: "50px" }}
           className={Styles.hamburger}
           onClick={toggler}
         >
@@ -43,32 +53,72 @@ const Navbar = () => {
           <div className={Styles.lines}></div>
         </div>
       </section>
-      {open && (
-        <div className={Styles.menuMobile}>
-          <a onClick={() => setOpen(false)} href="Home" className="home active">
-            Home
-          </a>
-          <a onClick={() => setOpen(false)} href="#About" className="about">
-            About
-          </a>
-          <a onClick={() => setOpen(false)} href="#Skills" className="contact">
-            Skills
-          </a>
-          <a
-            onClick={() => setOpen(false)}
-            href="#Services"
-            className="Services"
+      <div>
+        {open && (
+          <div
+            className={Styles.menuMobile}
+            data-aos="flip-left"
+            data-aos-duration="3100"
           >
-            Services
-          </a>
-          <a onClick={() => setOpen(false)} href="#Project" className="Project">
-            Project
-          </a>
-          <a onClick={() => setOpen(false)} href="#Contact" className="Contact">
-            Contact
-          </a>
-        </div>
-      )}
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
+              <a
+                href="Home"
+                style={{ width: "200px", height: "200px", marginLeft: "-3rem" }}
+              >
+                <img src={logoIcon} alt="img" />
+              </a>
+              <div onClick={closeNavbar}>
+                <AiOutlineClose style={{ marginLeft: "80%" }} />
+              </div>
+            </div>
+
+            <a
+              onClick={() => setOpen(false)}
+              href="Home"
+              className="home active"
+            >
+              Home
+            </a>
+            <a onClick={() => setOpen(false)} href="#About" className="about">
+              About
+            </a>
+            <a
+              onClick={() => setOpen(false)}
+              href="#Skills"
+              className="contact"
+            >
+              Skills
+            </a>
+            <a
+              onClick={() => setOpen(false)}
+              href="#Services"
+              className="Services"
+            >
+              Services
+            </a>
+            <a
+              onClick={() => setOpen(false)}
+              href="#Project"
+              className="Project"
+            >
+              Project
+            </a>
+            <a
+              onClick={() => setOpen(false)}
+              href="#Contact"
+              className="Contact"
+            >
+              Contact
+            </a>
+          </div>
+        )}
+      </div>
     </>
   );
 };
