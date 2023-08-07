@@ -104,7 +104,7 @@ const Navbar = () => {
             </a>
             <a
               onClick={() => setOpen(false)}
-              href="#Project"
+              href="#Projects"
               className="Project"
             >
               Project
