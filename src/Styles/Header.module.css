@@ -30,7 +30,6 @@
 
 .HeaderContainer main {
   @apply flex flex-col bg-transparent;
-  width: 1515px;
 }
 
 .HeaderContainer main h6 {
@@ -164,7 +163,7 @@
   .HeaderContainer main h1 {
     @apply text-white font-extrabold mt-10;
     line-height: 72px;
-    font-size: 6rem;
+    font-size: 4.8rem;
   }
 
   .Project {
@@ -225,8 +224,41 @@
 
   .line {
     @apply;
-    width: 230px;
+    width: 130px;
     background-color: #d69e2e;
     height: 3px;
+  }
+
+  .Project {
+    @apply font-semibold text-3xl;
+    width: 20%;
+    border: 2px solid #f7b633;
+    border-radius: 10px;
+    padding: 8px 24px;
+    cursor: pointer;
+    color: #f7b633;
+    line-height: 150%;
+    background-color: transparent;
+  }
+
+  .Project:hover {
+    color: #25282b;
+    background-color: #f7b633;
+  }
+
+  .Project:focus {
+    outline: none;
+  }
+
+  .Contact {
+    @apply font-semibold text-3xl;
+    width: 20%;
+    border: 2px solid #f7b633;
+    background-color: #f7b633;
+    border-radius: 10px;
+    padding: 8px 24px;
+    cursor: pointer;
+    color: #25282b;
+    line-height: 150%;
   }
 }
