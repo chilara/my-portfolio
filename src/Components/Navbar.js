@@ -17,10 +17,7 @@ const Navbar = () => {
   return (
     <>
       <section style={{ padding: "32px" }} className={Styles.NavbarContainer}>
-        <a
-          href="Home"
-          style={{ width: "100px", height: "100px", marginLeft: "5rem" }}
-        >
+        <a href="Home" style={{ width: "120px", height: "120px" }}>
           <img src={iconLogo} alt="logo" />
         </a>
         <nav>

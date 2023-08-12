@@ -331,7 +331,7 @@ main.ServicesMain:hover {
   }
 
   .ContentContainer p {
-    @apply text-gray-200 mt-5 font-hairline;
+    @apply text-gray-200 mt-5 font-hairline text-left;
     font-size: 2.5rem;
   }
 

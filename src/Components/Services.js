@@ -8,12 +8,12 @@ export const ServicesIntro = () => {
       <div
         className={Styles.ParentServices}
         data-aos="zoom-in-left"
-        data-aos-duration="3000"
+        data-aos-duration="3300"
       >
         <div />
         <h5>MY SERVICES</h5>
       </div>
-      <h1 data-aos="zoom-in-left" data-aos-duration="3000">
+      <h1 data-aos="zoom-in-left" data-aos-duration="3300">
         What I Can Do
       </h1>
     </section>
@@ -25,7 +25,7 @@ const Services = ({ image, heading, content }) => {
     <main
       className={Styles.ServicesMain}
       data-aos="zoom-in-right"
-      data-aos-duration="3000"
+      data-aos-duration="3300"
     >
       {/* <section> */}
       <div>
