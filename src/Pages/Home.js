@@ -236,16 +236,9 @@ const Home = () => {
         open={open}
         className={Styles.DialogContainer}
       >
-        <div style={{ height: "80vh" }}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              height: "100%",
-            }}
-          >
-            <object data={pdfFile} style={{ height: "600px", width: "80vw" }}>
+        <div className={Styles.firstCon}>
+          <div className={Styles.secondCon}>
+            <object data={pdfFile} className={Styles.objectData}>
               My CV
             </object>
           </div>
