@@ -20,7 +20,7 @@
 }
 
 .ParentAbout {
-  @apply my-3;
+  @apply my-0;
 }
 
 .ChildAbout {
