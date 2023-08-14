@@ -28,9 +28,10 @@ const About = ({ handleOpen }) => {
           </div>
           <h1>Who Am I</h1>
           <p>
-            I am an innovative Front-end Developer with experience in building
-            and maintaining scalable, responsive, and well-documented websites
-            and web applications.
+            User-focused Front-End Developer with a pixel-perfect eye for design
+            and a deep understanding of usability goals, great experience in
+            building and maintaining scalable, responsive, well documented
+            websites and web applications.
           </p>
           <br />
           <p>

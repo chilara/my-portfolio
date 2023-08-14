@@ -367,7 +367,8 @@ main.ServicesMain:hover {
   }
 
   .main div {
-    @apply font-extrabold text-5xl;
+    @apply font-extrabold;
+    font-size: 2.7rem;
   }
 
   .SkillsFlex {

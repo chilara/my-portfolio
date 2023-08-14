@@ -73,11 +73,11 @@ const skillList = [
   },
   {
     image: logo11,
-    content: "EXPRESS.JS",
+    content: "TYPESCRIPT",
   },
   {
     image: logo12,
-    content: "MONGO DB",
+    content: "CHAKRA UI",
   },
   {
     image: logo13,
