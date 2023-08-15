@@ -297,7 +297,7 @@ main.ServicesMain:hover {
 @media only screen and(max-width:799px),
   only screen and (max-device-width: 799px) {
   .ContentContainer {
-    @apply flex justify-center py-32;
+    @apply flex justify-center py-20;
     background-color: #282a29;
   }
 
