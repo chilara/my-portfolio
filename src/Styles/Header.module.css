@@ -88,9 +88,11 @@
   @apply flex justify-center items-center gap-8;
 }
 
-.ParentHeader h5 {
+.ParentHeader marquee {
   @apply text-white font-medium text-2xl;
   line-height: 72px;
+  width: 20%;
+  direction: right;
 }
 
 .buttons {
@@ -212,9 +214,11 @@
     @apply flex justify-center items-center gap-8 mt-4;
   }
 
-  .ParentHeader h5 {
+  .ParentHeader marquee {
     @apply text-white font-medium text-4xl;
     line-height: 72px;
+    width: 42%;
+    direction: right;
   }
 
   .buttons {
