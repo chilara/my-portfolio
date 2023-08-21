@@ -32,6 +32,7 @@ import advice_gen_app from "../Assets/advice_gen_app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import Docre from "../Assets/Docre.png";
 import tanta from "../Assets/tanta.png";
+import we_muveee from "../Assets/we_muveee.png";
 import Dialog from "@mui/material/Dialog";
 
 const skillList = [
@@ -126,9 +127,9 @@ const ServiceList = [
 
 const projectLists = [
   {
-    title: "Tanta Innovatives Limited website",
+    title: "Tanta Innovatives Limited",
     description:
-      "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions.",
+      "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions. I was part of the Frontend team that built this website. Built with React, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
     githubRepo: "",
     liveSite: "https://tantainnovatives.com/",
     image: (
@@ -151,6 +152,23 @@ const projectLists = [
     image: (
       <img
         src={Docre}
+        alt=""
+        style={{
+          height: "60%",
+          width: "90%",
+        }}
+      />
+    ),
+  },
+  {
+    title: "We Muveee Dashboard",
+    description:
+      "This is a Dashboard for a logistic company which shows the transportation queue of its customers, with their the list of delivery for customers, showing customer ID, Customer Name, Pick Up location, Drop off Location. They get to pick a date from the first four slot and its saved to the database. Built with React, Chakra UI.",
+    githubRepo: "https://github.com/chilara/we_muveee",
+    liveSite: "https://we-muveee.vercel.app/",
+    image: (
+      <img
+        src={we_muveee}
         alt=""
         style={{
           height: "60%",
