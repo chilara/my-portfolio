@@ -147,7 +147,7 @@ const projectLists = [
   {
     title: "Lendsqr",
     description:
-      "This is a replica of Lendsqr web application which comprises of a Login page, dashboard, user page, user detail page. Some features are still in progress. Built with React, SCSS, Typescript.",
+      "This is a replica of Lendsqr web application which comprises of a Login page, dashboard, user page, user detail page. Some features are still in progress. Built with React, SCSS, Typescript",
     githubRepo: "https://github.com/chilara/lendsqr-fe-test",
     liveSite: "https://chisom-timothy-lendsqr-fe-test.vercel.app/",
     image: (
