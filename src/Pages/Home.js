@@ -29,7 +29,7 @@ import webDesign from "../Assets/webDesign.png";
 import restApi from "../Assets/restApi.png";
 import webDev from "../Assets/webDev.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
-import Rest_countries_API from "../Assets/Rest_countries_API.png";
+import ipAddress from "../Assets/ipAddress.jpg";
 import Docre from "../Assets/Docre.png";
 import tanta from "../Assets/tanta.png";
 import macaw from "../Assets/macaw.png";
@@ -145,6 +145,23 @@ const projectLists = [
     ),
   },
   {
+    title: "IP Address Tracker",
+    description:
+      "This is an IP address tracker web app where users can input an IP address and then retrieve and display information about that IP address, such as its location on a map, the associated country, city, ISP (Internet Service Provider). Built with React.js, Chakra UI and Leaflet.js",
+    githubRepo: "https://github.com/chilara/IP_address_tracker",
+    liveSite: "https://ip-address-tracker-chisom-oguine.vercel.app/",
+    image: (
+      <img
+        src={ipAddress}
+        alt=""
+        style={{
+          height: "60%",
+          width: "90%",
+        }}
+      />
+    ),
+  },
+  {
     title: "Lendsqr",
     description:
       "This is a replica of Lendsqr web application which comprises of a Login page, dashboard, user page, user detail page. Some features are still in progress. Built with React, SCSS, Typescript",
@@ -203,14 +220,6 @@ const projectLists = [
     githubRepo: "https://github.com/chilara/advice-gen-app",
     liveSite: "https://chilara.github.io/advice-gen-app/",
     image: <img src={advice_gen_app} alt="" style={{ height: "100%" }} />,
-  },
-  {
-    title: "REST Countries API",
-    description:
-      "This Project is basically a website that displays country data. You can also view more detailed information about a particular country. User can also toggle color scheme between light and dark mode. Built with React, styled-components, tailwind, redux, Material UI.",
-    githubRepo: "https://github.com/chilara/rest-country-api",
-    liveSite: "",
-    image: <img src={Rest_countries_API} alt="" style={{ height: "100%" }} />,
   },
 ];
 
