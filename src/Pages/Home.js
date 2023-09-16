@@ -147,7 +147,7 @@ const projectLists = [
   {
     title: "IP Address Tracker",
     description:
-      "This is an IP address tracker web app where users can input an IP address and then retrieve and display information about that IP address, such as its location on a map, the associated country, city, ISP (Internet Service Provider). Built with React.js, Chakra UI and Leaflet.js",
+      "This is an IP address tracker web app where users can input an IP address and then retrieve and display information about that IP address, such as its location on a map, the associated country, city, ISP (Internet Service Provider). Built with React.js, Chakra UI, RESTFUL APIs and React Leaflet.js",
     githubRepo: "https://github.com/chilara/IP_address_tracker",
     liveSite: "https://ip-address-tracker-chisom-oguine.vercel.app/",
     image: (
@@ -164,7 +164,7 @@ const projectLists = [
   {
     title: "Lendsqr",
     description:
-      "This is a replica of Lendsqr web application which comprises of a Login page, dashboard, user page, user detail page. Some features are still in progress. Built with React, SCSS, Typescript",
+      "This is a replica of Lendsqr web application which comprises of a Login page, dashboard, user page, user detail page. Some features are still in progress. Built with React, SCSS, Typescript, RESTFUL APIs.",
     githubRepo: "https://github.com/chilara/lendsqr-fe-test",
     liveSite: "https://chisom-timothy-lendsqr-fe-test.vercel.app/",
     image: (
@@ -199,7 +199,7 @@ const projectLists = [
   {
     title: "Macaw Consult",
     description:
-      "Macaw Consult (website) is a client-centred global logistics provider that is passionate about serving its clients with excellence in meeting their unique needs by providing end-to-end services. Built with React, Chakra UI.",
+      "Macaw Consult (website) is a client-centred global logistics provider that is passionate about serving its clients with excellence in meeting their unique needs by providing end-to-end services. Built with HTML, CSS.",
     githubRepo: "https://github.com/chilara/macaw-consult",
     liveSite: "https://chilara.github.io/macaw-consult/",
     image: (
