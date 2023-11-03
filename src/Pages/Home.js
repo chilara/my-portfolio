@@ -51,7 +51,7 @@ const skillList = [
   },
   {
     image: logo9,
-    content: "MUI",
+    content: "Nextjs",
   },
   {
     image: logo4,
@@ -130,7 +130,7 @@ const projectLists = [
   {
     title: "Tanta Innovatives Limited",
     description:
-      "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions. I was part of the Frontend team that built this website. Built with React, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
+      "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions. I was part of the Frontend team that built this website. Built with Next.js, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
     githubRepo: "",
     liveSite: "https://tantainnovatives.com/",
     image: (
