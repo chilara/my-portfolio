@@ -30,7 +30,7 @@ import restApi from "../Assets/restApi.png";
 import webDev from "../Assets/webDev.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
-import Docre from "../Assets/Docre.png";
+// import Docre from "../Assets/Docre.png";
 import tanta from "../Assets/tanta.png";
 import macaw from "../Assets/macaw.png";
 import Dashboard from "../Assets/Dashboard.png";
@@ -178,23 +178,23 @@ const projectLists = [
       />
     ),
   },
-  {
-    title: "Docre Blog",
-    description:
-      "This is a blog website where users can upload their articles in a conventional style with accompanying avatars, titles, and URLs of the article. Built with React, CSS, RESTFUL APIs, Axios, Node.js, MongoDB.",
-    githubRepo: "https://github.com/chilara/Docre-Blog",
-    liveSite: "https://capstone-project-chilara.vercel.app/",
-    image: (
-      <img
-        src={Docre}
-        alt=""
-        style={{
-          height: "60%",
-          width: "90%",
-        }}
-      />
-    ),
-  },
+  // {
+  //   title: "Docre Blog",
+  //   description:
+  //     "This is a blog website where users can upload their articles in a conventional style with accompanying avatars, titles, and URLs of the article. Built with React, CSS, RESTFUL APIs, Axios, Node.js, MongoDB.",
+  //   githubRepo: "https://github.com/chilara/Docre-Blog",
+  //   liveSite: "https://capstone-project-chilara.vercel.app/",
+  //   image: (
+  //     <img
+  //       src={Docre}
+  //       alt=""
+  //       style={{
+  //         height: "60%",
+  //         width: "90%",
+  //       }}
+  //     />
+  //   ),
+  // },
 
   {
     title: "Macaw Consult",
