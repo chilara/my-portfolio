@@ -30,7 +30,7 @@ import restApi from "../Assets/restApi.png";
 import webDev from "../Assets/webDev.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
-// import Docre from "../Assets/Docre.png";
+import sneakers from "../Assets/sneakers.jpg";
 import tanta from "../Assets/tanta.png";
 import macaw from "../Assets/macaw.png";
 import Dashboard from "../Assets/Dashboard.png";
@@ -51,7 +51,7 @@ const skillList = [
   },
   {
     image: logo9,
-    content: "Nextjs",
+    content: "NEXT.JS",
   },
   {
     image: logo4,
@@ -162,6 +162,14 @@ const projectLists = [
     ),
   },
   {
+    title: "Sneakers Shop",
+    description:
+      "This is an e-commerce webapp, where users can view list of products, add items to the cart, view the cart and remove items from it. Built with React, Chakra UI, React router DOM, Redux.",
+    githubRepo: "https://github.com/chilara/sneakers_shop",
+    liveSite: "https://sneakers-shop-chisom.vercel.app/",
+    image: <img src={sneakers} alt="" style={{ height: "100%" }} />,
+  },
+  {
     title: "Lendsqr",
     description:
       "This is a replica of Lendsqr web application which comprises of a Login page, dashboard, user page, user detail page. Some features are still in progress. Built with React, SCSS, Typescript, RESTFUL APIs.",
@@ -178,23 +186,6 @@ const projectLists = [
       />
     ),
   },
-  // {
-  //   title: "Docre Blog",
-  //   description:
-  //     "This is a blog website where users can upload their articles in a conventional style with accompanying avatars, titles, and URLs of the article. Built with React, CSS, RESTFUL APIs, Axios, Node.js, MongoDB.",
-  //   githubRepo: "https://github.com/chilara/Docre-Blog",
-  //   liveSite: "https://capstone-project-chilara.vercel.app/",
-  //   image: (
-  //     <img
-  //       src={Docre}
-  //       alt=""
-  //       style={{
-  //         height: "60%",
-  //         width: "90%",
-  //       }}
-  //     />
-  //   ),
-  // },
 
   {
     title: "Macaw Consult",
