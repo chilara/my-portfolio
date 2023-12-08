@@ -187,23 +187,23 @@ const projectLists = [
     ),
   },
 
-  {
-    title: "Macaw Consult",
-    description:
-      "Macaw Consult (website) is a client-centred global logistics provider that is passionate about serving its clients with excellence in meeting their unique needs by providing end-to-end services. Built with HTML, CSS.",
-    githubRepo: "https://github.com/chilara/macaw-consult",
-    liveSite: "https://chilara.github.io/macaw-consult/",
-    image: (
-      <img
-        src={macaw}
-        alt=""
-        style={{
-          height: "60%",
-          width: "90%",
-        }}
-      />
-    ),
-  },
+  // {
+  //   title: "Macaw Consult",
+  //   description:
+  //     "Macaw Consult (website) is a client-centred global logistics provider that is passionate about serving its clients with excellence in meeting their unique needs by providing end-to-end services. Built with HTML, CSS.",
+  //   githubRepo: "https://github.com/chilara/macaw-consult",
+  //   liveSite: "https://chilara.github.io/macaw-consult/",
+  //   image: (
+  //     <img
+  //       src={macaw}
+  //       alt=""
+  //       style={{
+  //         height: "60%",
+  //         width: "90%",
+  //       }}
+  //     />
+  //   ),
+  // },
   {
     title: "Advice Generator App",
     description:
