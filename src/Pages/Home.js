@@ -32,7 +32,7 @@ import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
 import sneakers from "../Assets/sneakers.jpg";
 import tanta from "../Assets/tanta.png";
-import macaw from "../Assets/macaw.png";
+import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import Dashboard from "../Assets/Dashboard.png";
 import Dialog from "@mui/material/Dialog";
 
@@ -138,7 +138,7 @@ const projectLists = [
         src={tanta}
         alt=""
         style={{
-          height: "60%",
+          height: "70%",
           width: "90%",
         }}
       />
@@ -161,6 +161,23 @@ const projectLists = [
       />
     ),
   },
+  // {
+  //   title: "Rest Country API",
+  //   description:
+  //     "This is a product integrated with the REST Countries API to pull country data and display it. Users can click on a country to see more detailed information about that country and its border countries. Users can also toggle the color scheme between light and dark mode. Built with React, CSS, Redux, RESTFUL APIs, MAterial UI.",
+  //   githubRepo: "",
+  //   liveSite: "",
+  //   image: (
+  //     <img
+  //       src={Rest_countries_API}
+  //       alt=""
+  //       style={{
+  //         height: "80%",
+  //         width: "100%",
+  //       }}
+  //     />
+  //   ),
+  // },
   {
     title: "Sneakers Shop",
     description:
@@ -180,30 +197,13 @@ const projectLists = [
         src={Dashboard}
         alt=""
         style={{
-          height: "60%",
+          height: "70%",
           width: "90%",
         }}
       />
     ),
   },
 
-  // {
-  //   title: "Macaw Consult",
-  //   description:
-  //     "Macaw Consult (website) is a client-centred global logistics provider that is passionate about serving its clients with excellence in meeting their unique needs by providing end-to-end services. Built with HTML, CSS.",
-  //   githubRepo: "https://github.com/chilara/macaw-consult",
-  //   liveSite: "https://chilara.github.io/macaw-consult/",
-  //   image: (
-  //     <img
-  //       src={macaw}
-  //       alt=""
-  //       style={{
-  //         height: "60%",
-  //         width: "90%",
-  //       }}
-  //     />
-  //   ),
-  // },
   {
     title: "Advice Generator App",
     description:
