@@ -32,6 +32,7 @@ import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
 import sneakers from "../Assets/sneakers.jpg";
 import tanta from "../Assets/tanta.png";
+import fundr from "../Assets/fundr.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import Dashboard from "../Assets/Dashboard.png";
 import Dialog from "@mui/material/Dialog";
@@ -161,23 +162,40 @@ const projectLists = [
       />
     ),
   },
-  // {
-  //   title: "Rest Country API",
-  //   description:
-  //     "This is a product integrated with the REST Countries API to pull country data and display it. Users can click on a country to see more detailed information about that country and its border countries. Users can also toggle the color scheme between light and dark mode. Built with React, CSS, Redux, RESTFUL APIs, MAterial UI.",
-  //   githubRepo: "",
-  //   liveSite: "",
-  //   image: (
-  //     <img
-  //       src={Rest_countries_API}
-  //       alt=""
-  //       style={{
-  //         height: "80%",
-  //         width: "100%",
-  //       }}
-  //     />
-  //   ),
-  // },
+  {
+    title: "FundR Dashboard",
+    description:
+      "This is a Dashboard for a fintech company, showing a paginated list of users transactions. Some features are still in progress. Built with Next, Typescript, Chakra UI, RESTFUL APIs.",
+    githubRepo: "https://github.com/chilara/Dashboard-FundR",
+    liveSite: "https://dashboard-fundr.vercel.app/",
+    image: (
+      <img
+        src={fundr}
+        alt=""
+        style={{
+          height: "70%",
+          width: "90%",
+        }}
+      />
+    ),
+  },
+  {
+    title: "Rest Country API",
+    description:
+      "This is a product integrated with the REST Countries API to pull country data and display it. Users can click on a country to see more detailed information about that country and its border countries. Users can also toggle the color scheme between light and dark mode. Built with React, CSS, Redux, RESTFUL APIs, MAterial UI.",
+    githubRepo: "https://github.com/chilara/api-rest-country",
+    liveSite: "https://api-rest-country.vercel.app/",
+    image: (
+      <img
+        src={Rest_countries_API}
+        alt=""
+        style={{
+          height: "80%",
+          width: "100%",
+        }}
+      />
+    ),
+  },
   {
     title: "Sneakers Shop",
     description:
