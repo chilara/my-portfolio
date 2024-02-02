@@ -34,7 +34,7 @@ import sneakers from "../Assets/sneakers.jpg";
 import tanta from "../Assets/tanta.png";
 import fundr from "../Assets/fundr.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
-import Dashboard from "../Assets/Dashboard.png";
+import techpros from "../Assets/techpros.png";
 import Dialog from "@mui/material/Dialog";
 
 const skillList = [
@@ -131,7 +131,7 @@ const projectLists = [
   {
     title: "Tanta Innovatives Limited",
     description:
-      "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions. I was part of the Frontend team that built this website. Built with Next.js, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
+      "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions. Built with Next.js, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
     githubRepo: "",
     liveSite: "https://tantainnovatives.com/",
     image: (
@@ -162,6 +162,24 @@ const projectLists = [
       />
     ),
   },
+  {
+    title: "TechProsNaija",
+    description:
+      "This website connects you to the landing-page of a EduTech organization who is set to provide technical and non-technical courses online via a Learning management system. Built with React, Tailwind CSS, RESTFUL APIs.",
+    githubRepo: "https://github.com/Techprossng/Techprossng-website",
+    liveSite: "https://techprosnaija.com/",
+    image: (
+      <img
+        src={techpros}
+        alt=""
+        style={{
+          height: "70%",
+          width: "90%",
+        }}
+      />
+    ),
+  },
+
   {
     title: "FundR Dashboard",
     description:
@@ -203,23 +221,6 @@ const projectLists = [
     githubRepo: "https://github.com/chilara/sneakers_shop",
     liveSite: "https://sneakers-shop-chisom.vercel.app/",
     image: <img src={sneakers} alt="" style={{ height: "100%" }} />,
-  },
-  {
-    title: "Lendsqr",
-    description:
-      "This is a replica of Lendsqr web application which comprises of a Login page, dashboard, user page, user detail page. Some features are still in progress. Built with React, SCSS, Typescript, RESTFUL APIs.",
-    githubRepo: "https://github.com/chilara/lendsqr-fe-test",
-    liveSite: "https://chisom-timothy-lendsqr-fe-test.vercel.app/",
-    image: (
-      <img
-        src={Dashboard}
-        alt=""
-        style={{
-          height: "70%",
-          width: "90%",
-        }}
-      />
-    ),
   },
 
   {
