@@ -165,7 +165,7 @@ const projectLists = [
   {
     title: "TechProsNaija",
     description:
-      "This website connects you to the landing-page of a EduTech organization who is set to provide technical and non-technical courses online via a Learning management system. Built with React, Tailwind CSS, RESTFUL APIs.",
+      "This website connects you to the landing-page of an EduTech organization who is set to provide technical and non-technical courses online via a Learning management system. Built with React, Tailwind CSS, RESTFUL APIs.",
     githubRepo: "https://github.com/Techprossng/Techprossng-website",
     liveSite: "https://techprosnaija.com/",
     image: (
