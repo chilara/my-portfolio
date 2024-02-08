@@ -31,7 +31,7 @@ import webDev from "../Assets/webDev.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
 import sneakers from "../Assets/sneakers.jpg";
-import tanta from "../Assets/tanta.png";
+// import tanta from "../Assets/tanta.png";
 import fundr from "../Assets/fundr.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import techpros from "../Assets/techpros.png";
@@ -128,15 +128,32 @@ const ServiceList = [
 ];
 
 const projectLists = [
+  // {
+  //   title: "Tanta Innovatives Limited",
+  //   description:
+  //     "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions. Built with Next.js, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
+  //   githubRepo: "",
+  //   liveSite: "https://tantainnovatives.com/",
+  //   image: (
+  //     <img
+  //       src={tanta}
+  //       alt=""
+  //       style={{
+  //         height: "70%",
+  //         width: "90%",
+  //       }}
+  //     />
+  //   ),
+  // },
   {
-    title: "Tanta Innovatives Limited",
+    title: "TechProsNaija",
     description:
-      "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions. Built with Next.js, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
-    githubRepo: "",
-    liveSite: "https://tantainnovatives.com/",
+      "This website connects you to the landing-page of an EduTech organization who is set to provide technical and non-technical courses online via a Learning management system. Built with React, Tailwind CSS, RESTFUL APIs.",
+    githubRepo: "https://github.com/Techprossng/Techprossng-website",
+    liveSite: "https://techprosnaija.com/",
     image: (
       <img
-        src={tanta}
+        src={techpros}
         alt=""
         style={{
           height: "70%",
@@ -157,23 +174,6 @@ const projectLists = [
         alt=""
         style={{
           height: "60%",
-          width: "90%",
-        }}
-      />
-    ),
-  },
-  {
-    title: "TechProsNaija",
-    description:
-      "This website connects you to the landing-page of an EduTech organization who is set to provide technical and non-technical courses online via a Learning management system. Built with React, Tailwind CSS, RESTFUL APIs.",
-    githubRepo: "https://github.com/Techprossng/Techprossng-website",
-    liveSite: "https://techprosnaija.com/",
-    image: (
-      <img
-        src={techpros}
-        alt=""
-        style={{
-          height: "70%",
           width: "90%",
         }}
       />
