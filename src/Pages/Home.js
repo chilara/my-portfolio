@@ -31,7 +31,7 @@ import webDev from "../Assets/webDev.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
 import sneakers from "../Assets/sneakers.jpg";
-// import tanta from "../Assets/tanta.png";
+import veerge from "../Assets/veerge.png";
 import fundr from "../Assets/fundr.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import techpros from "../Assets/techpros.png";
@@ -128,23 +128,6 @@ const ServiceList = [
 ];
 
 const projectLists = [
-  // {
-  //   title: "Tanta Innovatives Limited",
-  //   description:
-  //     "This project is the official website of Tanta Innovatives Limited. An IT consulting and software development company that transforms businesses with cutting edge software solutions. Built with Next.js, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
-  //   githubRepo: "",
-  //   liveSite: "https://tantainnovatives.com/",
-  //   image: (
-  //     <img
-  //       src={tanta}
-  //       alt=""
-  //       style={{
-  //         height: "70%",
-  //         width: "90%",
-  //       }}
-  //     />
-  //   ),
-  // },
   {
     title: "TechProsNaija",
     description:
@@ -221,6 +204,23 @@ const projectLists = [
     githubRepo: "https://github.com/chilara/sneakers_shop",
     liveSite: "https://sneakers-shop-chisom.vercel.app/",
     image: <img src={sneakers} alt="" style={{ height: "100%" }} />,
+  },
+  {
+    title: "Veerge Dashboard",
+    description:
+      "This is basically the dashboard for Veerge, showing the sales overview, property overview, customers overview, and listing overview. Users can view the calender on the navbar. Built with Next.js, CSS, Chakra UI, Modular programming.",
+    githubRepo: "https://github.com/chilara/myXellia_test",
+    liveSite: "https://chisom-oguine-my-xellia-test.vercel.app/",
+    image: (
+      <img
+        src={veerge}
+        alt=""
+        style={{
+          height: "60%",
+          width: "90%",
+        }}
+      />
+    ),
   },
 
   {
