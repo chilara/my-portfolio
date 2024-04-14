@@ -35,6 +35,7 @@ import veerge from "../Assets/veerge.png";
 import fundr from "../Assets/fundr.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import techpros from "../Assets/techpros.png";
+import pruvia from "../Assets/pruvia.png";
 import Dialog from "@mui/material/Dialog";
 
 const skillList = [
@@ -128,6 +129,23 @@ const ServiceList = [
 ];
 
 const projectLists = [
+  {
+    title: "Pruvia (LoanApp)",
+    description:
+      "Pruvia is a community driven platform designed to make peer to peer lending accessible, secure and rewarding. It is a platform that is bent to meet all your financial obligations and provide you with profitable platforms that supports the growth of your business and meeting your urgent needs.",
+    githubRepo: "https://bitbucket.org/javaplus-workspace/pruvia-p2p-admin-fe/src/main/",
+    liveSite: "https://pruvia-p2p-admin-fe-x2cj.vercel.app/",
+    image: (
+      <img
+        src={pruvia}
+        alt=""
+        style={{
+          height: "70%",
+          width: "90%",
+        }}
+      />
+    ),
+  },
   {
     title: "TechProsNaija",
     description:
