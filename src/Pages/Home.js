@@ -32,7 +32,7 @@ import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
 import sneakers from "../Assets/sneakers.jpg";
 import veerge from "../Assets/veerge.png";
-import fundr from "../Assets/fundr.png";
+import todo_app from "../Assets/todo_app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import techpros from "../Assets/techpros.png";
 import pruvia from "../Assets/pruvia.png";
@@ -182,18 +182,18 @@ const projectLists = [
   },
 
   {
-    title: "FundR Dashboard",
+    title: "My Todo-App",
     description:
-      "This is a Dashboard for a fintech company, showing a paginated list of users transactions. Some features are still in progress. Built with Next, Typescript, Chakra UI, RESTFUL APIs.",
-    githubRepo: "https://github.com/chilara/Dashboard-FundR",
-    liveSite: "https://dashboard-fundr.vercel.app/",
+      "This is a simple Todo List application where users can add, edit, delete and mark tasks as complete. Built with React, Typescript, Tailwind CSS, Redux toolkit.",
+    githubRepo: "https://github.com/chilara/my-todo-app",
+    liveSite: "https://my-todo-app-2024.vercel.app/",
     image: (
       <img
-        src={fundr}
+        src={todo_app}
         alt=""
         style={{
           height: "70%",
-          width: "90%",
+          width: "100%",
         }}
       />
     ),
