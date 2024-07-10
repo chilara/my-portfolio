@@ -32,7 +32,7 @@ import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
 import sneakers from "../Assets/sneakers.jpg";
 import veerge from "../Assets/veerge.png";
-import todo_app from "../Assets/todo_app.png";
+import todo_app from "../Assets/todo-app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import techpros from "../Assets/techpros.png";
 import pruvia from "../Assets/pruvia.png";
