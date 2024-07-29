@@ -31,7 +31,7 @@ import webDev from "../Assets/webDev.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
 import sneakers from "../Assets/sneakers.jpg";
-import veerge from "../Assets/veerge.png";
+import go from "../Assets/go.png";
 import todo_app from "../Assets/todo-app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import techpros from "../Assets/techpros.png";
@@ -130,7 +130,7 @@ const ServiceList = [
 
 const projectLists = [
   {
-    title: "Pruvia (LoanApp)",
+    title: "Pruvia (admin)",
     description:
       "Pruvia is a community driven platform designed to make peer to peer lending accessible, secure and rewarding. It is a platform that is bent to meet all your financial obligations and provide you with profitable platforms that supports the growth of your business and meeting your urgent needs.",
     githubRepo: "https://bitbucket.org/javaplus-workspace/pruvia-p2p-admin-fe/src/main/",
@@ -182,6 +182,24 @@ const projectLists = [
   },
 
   {
+    title: "Go Dashboard",
+    description:
+      "This is basically the dashboard for Go, where client can manage the users and their respective roles. Client get to implement CRUD (Create, Read, Update, Delete) functionality for a user. Built with Next.js, Tailwind CSS, Shad cn UI, Axios, Modular programming.",
+    githubRepo: "https://github.com/chilara/assessment-voyatek",
+    liveSite: "https://assessment-voyatek-chisom.vercel.app/",
+    image: (
+      <img
+        src={go}
+        alt=""
+        style={{
+          height: "70%",
+          width: "90%",
+        }}
+      />
+    ),
+  },
+
+  {
     title: "My Todo-App",
     description:
       "This is a simple Todo List application where users can add, edit, delete and mark tasks as complete. Built with React, Typescript, Tailwind CSS, Redux toolkit.",
@@ -192,7 +210,7 @@ const projectLists = [
         src={todo_app}
         alt=""
         style={{
-          height: "70%",
+          height: "65%",
           width: "100%",
         }}
       />
@@ -223,23 +241,7 @@ const projectLists = [
     liveSite: "https://sneakers-shop-chisom.vercel.app/",
     image: <img src={sneakers} alt="" style={{ height: "100%" }} />,
   },
-  {
-    title: "Veerge Dashboard",
-    description:
-      "This is basically the dashboard for Veerge, showing the sales overview, property overview, customers overview, and listing overview. Users can view the calender on the navbar. Built with Next.js, CSS, Chakra UI, Modular programming.",
-    githubRepo: "https://github.com/chilara/myXellia_test",
-    liveSite: "https://chisom-oguine-my-xellia-test.vercel.app/",
-    image: (
-      <img
-        src={veerge}
-        alt=""
-        style={{
-          height: "60%",
-          width: "90%",
-        }}
-      />
-    ),
-  },
+ 
 
   {
     title: "Advice Generator App",
@@ -281,16 +283,17 @@ const Home = () => {
       <div className={Styles.skillsContainer}>
         <SkillsIntro />
         <div className={Styles.SkillsFlex}>
-          {skillList.map((items) => (
-            <Skills image={items.image} content={items.content} />
+          {skillList.map((items, index) => (
+            <Skills key={index} image={items.image} content={items.content} />
           ))}
         </div>
       </div>
       <div className={Styles.ServicesContainer}>
         <ServicesIntro />
         <div className={Styles.ServicesFlex}>
-          {ServiceList.map((items) => (
+          {ServiceList.map((items, index) => (
             <Services
+            key={index}
               image={items.image}
               heading={items.heading}
               content={items.content}
