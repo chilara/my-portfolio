@@ -35,7 +35,7 @@ import go from "../Assets/go.png";
 import todo_app from "../Assets/todo-app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import techpros from "../Assets/techpros.png";
-import pruvia from "../Assets/pruvia.png";
+import Tanta from "../Assets/Tanta.png";
 import Dialog from "@mui/material/Dialog";
 
 const skillList = [
@@ -130,17 +130,17 @@ const ServiceList = [
 
 const projectLists = [
   {
-    title: "Pruvia (admin)",
+    title: "Tanta Innovatives Limited",
     description:
-      "Pruvia is a community driven platform designed to make peer to peer lending accessible, secure and rewarding. It is a platform that is bent to meet all your financial obligations and provide you with profitable platforms that supports the growth of your business and meeting your urgent needs.",
-    githubRepo: "https://bitbucket.org/javaplus-workspace/pruvia-p2p-admin-fe/src/main/",
-    liveSite: "https://pruvia-p2p-admin-fe-x2cj.vercel.app/",
+      "Tanta Innovatives Limited is an IT consulting and software development company that transforms businesses with cutting edge software solutions. I was part of the Frontend team that built this website. Built with React, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
+    githubRepo: "#",
+    liveSite: "https://tantainnovatives.com/",
     image: (
       <img
-        src={pruvia}
+        src={Tanta}
         alt=""
         style={{
-          height: "70%",
+          height: "65%",
           width: "90%",
         }}
       />
@@ -155,6 +155,23 @@ const projectLists = [
     image: (
       <img
         src={techpros}
+        alt=""
+        style={{
+          height: "70%",
+          width: "90%",
+        }}
+      />
+    ),
+  },
+  {
+    title: "Go Dashboard",
+    description:
+      "This is basically the dashboard for Go, where client can manage the users and their respective roles. Client get to implement CRUD (Create, Read, Update, Delete) functionality for a user. Built with Next.js, Tailwind CSS, Shad cn UI, Axios, Modular programming.",
+    githubRepo: "https://github.com/chilara/assessment-voyatek",
+    liveSite: "https://assessment-voyatek-chisom.vercel.app/",
+    image: (
+      <img
+        src={go}
         alt=""
         style={{
           height: "70%",
@@ -180,25 +197,6 @@ const projectLists = [
       />
     ),
   },
-
-  {
-    title: "Go Dashboard",
-    description:
-      "This is basically the dashboard for Go, where client can manage the users and their respective roles. Client get to implement CRUD (Create, Read, Update, Delete) functionality for a user. Built with Next.js, Tailwind CSS, Shad cn UI, Axios, Modular programming.",
-    githubRepo: "https://github.com/chilara/assessment-voyatek",
-    liveSite: "https://assessment-voyatek-chisom.vercel.app/",
-    image: (
-      <img
-        src={go}
-        alt=""
-        style={{
-          height: "70%",
-          width: "90%",
-        }}
-      />
-    ),
-  },
-
   {
     title: "My Todo-App",
     description:
