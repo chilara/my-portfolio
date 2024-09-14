@@ -35,7 +35,7 @@ import go from "../Assets/go.png";
 import todo_app from "../Assets/todo-app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
 import techpros from "../Assets/techpros.png";
-import Tanta from "../Assets/Tanta.png";
+import tanta from "../Assets/tanta.png";
 import Dialog from "@mui/material/Dialog";
 
 const skillList = [
@@ -137,7 +137,7 @@ const projectLists = [
     liveSite: "https://tantainnovatives.com/",
     image: (
       <img
-        src={Tanta}
+        src={tanta}
         alt=""
         style={{
           height: "65%",
