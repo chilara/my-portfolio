@@ -19,9 +19,12 @@ const Header = () => {
             data-aos="fade-left"
             data-aos-duration="3000"
           />
-          <marquee data-aos="zoom-in" data-aos-duration="3000">
-            A FRONTEND DEVELOPER
-          </marquee>
+
+          <div className={Styles.marqueeWrapper}>
+            <div className={Styles.marqueeText}>
+              Frontend Developer
+            </div>
+          </div>
           <div
             className={Styles.line}
             data-aos="fade-right"
