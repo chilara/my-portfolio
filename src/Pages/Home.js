@@ -22,6 +22,15 @@ import logo7 from "../Assets/logo7.png";
 import logo11 from "../Assets/logo11.png";
 import logo12 from "../Assets/logo12.png";
 import logo13 from "../Assets/logo13.png";
+import logo14 from "../Assets/logo14.png";
+import logo15 from "../Assets/logo15.png";
+import logo16 from "../Assets/logo16.png";
+import njoy01 from "../Assets/njoy01.png";
+import njoy02 from "../Assets/njoy02.png";
+import njoy03 from "../Assets/njoy03.png";
+import growit01 from "../Assets/growit01.png";
+import growit02 from "../Assets/growit02.png";
+import growit03 from "../Assets/growit03.png";
 import cleanCode from "../Assets/cleanCode.png";
 import responsive from "../Assets/responsive.png";
 import frontend from "../Assets/frontend.png";
@@ -31,10 +40,7 @@ import webDev from "../Assets/webDev.png";
 import advice_gen_app from "../Assets/advice_gen_app.png";
 import ipAddress from "../Assets/ipAddress.jpg";
 import sneakers from "../Assets/sneakers.jpg";
-import go from "../Assets/go.png";
-import todo_app from "../Assets/todo-app.png";
 import Rest_countries_API from "../Assets/Rest_countries_API.png";
-import techpros from "../Assets/techpros.png";
 import tanta from "../Assets/tanta.png";
 import Dialog from "@mui/material/Dialog";
 
@@ -87,6 +93,18 @@ const skillList = [
     image: logo13,
     content: "FIGMA",
   },
+   {
+    image: logo14,
+    content: "PG ADMIN",
+  },
+  {
+    image: logo15,
+    content: "DOCKER",
+  },
+   {
+    image: logo16,
+    content: "JIRA",
+  },
 ];
 
 const ServiceList = [
@@ -129,10 +147,114 @@ const ServiceList = [
 ];
 
 const projectLists = [
+   {
+    title: "Njoy",
+    description:
+      "Njoy is a mobile-first digital lifestyle platform built to support how you live, move, and connect. It brings curated perks, essential services, and shared opportunities into one simple place. Makes life a little easier, a little smarter, and a lot more rewarding. Built with Next.js, Tailwind CSS, Ant Design, GraphQL.",
+    githubRepo: "#",
+    liveSite: "https://app.njoy.live/",
+    image: (
+      <div
+      style={{
+        display: "flex",
+        gap: "10px",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "100%",
+      }}
+    >
+      <img
+        src={njoy01}
+        alt="Njoy 1"
+        style={{
+          width: "30%",
+          height: "350px",
+          objectFit: "cover",
+          borderRadius: "10px",
+        }}
+      />
+
+      <img
+        src={njoy02}
+        alt="Njoy 2"
+        style={{
+          width: "30%",
+          height: "350px",
+          objectFit: "cover",
+          borderRadius: "10px",
+        }}
+      />
+
+      <img
+        src={njoy03}
+        alt="Njoy 3"
+        style={{
+          width: "30%",
+          height: "350px",
+          objectFit: "cover",
+          borderRadius: "10px",
+        }}
+      />
+    </div>
+    ),
+    
+  },
+    {
+    title: "GrowIt",
+    description:
+      "GrowIt is a digital marketplace that connects everyday sellers with ready-to-but customers. It empowers individuals and small businesses to showcase their products with ease. Built with Next.js, Tailwind CSS, RESTFUL APIs.",
+    githubRepo: "#",
+    liveSite: "https://staging-fe-growit.alamiplatforms.com/",
+    image: (
+      <div
+      style={{
+        display: "flex",
+        gap: "10px",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "100%",
+      }}
+    >
+      <img
+        src={growit01}
+        alt="Njoy 1"
+        style={{
+          width: "30%",
+          height: "350px",
+          objectFit: "cover",
+          borderRadius: "10px",
+        }}
+      />
+
+      <img
+        src={growit02}
+        alt="Njoy 2"
+        style={{
+          width: "30%",
+          height: "350px",
+          objectFit: "cover",
+          borderRadius: "10px",
+        }}
+      />
+
+      <img
+        src={growit03}
+        alt="Njoy 3"
+        style={{
+          width: "30%",
+          height: "350px",
+          objectFit: "cover",
+          borderRadius: "10px",
+        }}
+      />
+    </div>
+    ),
+    
+  },
   {
     title: "Tanta Innovatives Limited",
     description:
-      "Tanta Innovatives Limited is an IT consulting and software development company that transforms businesses with cutting edge software solutions. I was part of the Frontend team that built this website. Built with React, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
+      "Tanta Innovatives Limited is an IT consulting and software development company that transforms businesses with cutting edge software solutions. Built with React, CSS, Chakra UI, Styled-components, RESTFUL APIs, Axios, Node.js,",
     githubRepo: "#",
     liveSite: "https://tantainnovatives.com/",
     image: (
@@ -146,40 +268,7 @@ const projectLists = [
       />
     ),
   },
-  {
-    title: "TechProsNaija",
-    description:
-      "This website connects you to the landing-page of an EduTech organization who is set to provide technical and non-technical courses online via a Learning management system. Built with React, Tailwind CSS, RESTFUL APIs.",
-    githubRepo: "https://github.com/Techprossng/Techprossng-website",
-    liveSite: "https://techprosnaija.com/",
-    image: (
-      <img
-        src={techpros}
-        alt=""
-        style={{
-          height: "70%",
-          width: "90%",
-        }}
-      />
-    ),
-  },
-  {
-    title: "Go Dashboard",
-    description:
-      "This is basically the dashboard for Go, where client can manage the users and their respective roles. Client get to implement CRUD (Create, Read, Update, Delete) functionality for a user. Built with Next.js, Tailwind CSS, Shad cn UI, Axios, Modular programming.",
-    githubRepo: "https://github.com/chilara/assessment-voyatek",
-    liveSite: "https://assessment-voyatek-chisom.vercel.app/",
-    image: (
-      <img
-        src={go}
-        alt=""
-        style={{
-          height: "70%",
-          width: "90%",
-        }}
-      />
-    ),
-  },
+ 
   {
     title: "IP Address Tracker",
     description:
@@ -197,23 +286,7 @@ const projectLists = [
       />
     ),
   },
-  {
-    title: "My Todo-App",
-    description:
-      "This is a simple Todo List application where users can add, edit, delete and mark tasks as complete. Built with React, Typescript, Tailwind CSS, Redux toolkit.",
-    githubRepo: "https://github.com/chilara/my-todo-app",
-    liveSite: "https://my-todo-app-2024.vercel.app/",
-    image: (
-      <img
-        src={todo_app}
-        alt=""
-        style={{
-          height: "65%",
-          width: "100%",
-        }}
-      />
-    ),
-  },
+
   {
     title: "Rest Country API",
     description:
